@@ -9,8 +9,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "my_portfolio",
+    "title": "Hi! I’m Rick! 👋",
     "section": "",
-    "text": "Hi! My name is Rick!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hi! My full name is Henrique Shiguemoto Felizardo. I have a bachelor’s degree in Computer Science from the State University of Maringá, with 2 years of experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.\nYou can download my CV (English) or CV (Portuguese).\nI work with great passion for solving real-world problems using teamwork, engineering, design, technology, and creativity."
+  },
+  {
+    "objectID": "index.html#main-interests",
+    "href": "index.html#main-interests",
+    "title": "Hi! I’m Rick! 👋",
+    "section": "Main Interests",
+    "text": "Main Interests\n\n\n&lt;h3&gt;Game Dev&lt;/h3&gt;\n&lt;p&gt;Graphics, Game Programming, and Design&lt;/p&gt;\n\n\n&lt;h3&gt;Data Analysis&lt;/h3&gt;\n&lt;p&gt;Statistics, Data Manipulation, and Visualization&lt;/p&gt;\n\n\n&lt;h3&gt;Software Eng.&lt;/h3&gt;\n&lt;p&gt;Development, Testing, and Maintenance&lt;/p&gt;"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Reach Me Out!\n\nEmail: rick@example.com\n\nLinkedIn: linkedin.com/in/rick\n\nGitHub: github.com/rick\n\nYouTube: youtube.com/rick\n\nDiscord: Rick#1234\n\nYou can also follow me on Facebook, Instagram, or view my Tableau visualizations."
   }
 ]

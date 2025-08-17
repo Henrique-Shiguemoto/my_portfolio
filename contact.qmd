@@ -1,0 +1,15 @@
+---
+title: "Contact"
+format: html
+css: www/custom.css
+---
+
+# Reach Me Out!
+
+- **Email:** rick@example.com  
+- **LinkedIn:** [linkedin.com/in/rick](https://www.linkedin.com/in/rick)  
+- **GitHub:** [github.com/rick](https://github.com/rick)  
+- **YouTube:** [youtube.com/rick](https://youtube.com/rick)  
+- **Discord:** Rick#1234  
+
+You can also follow me on **Facebook**, **Instagram**, or view my **Tableau visualizations**.

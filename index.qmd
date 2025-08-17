@@ -1,7 +1,30 @@
 ---
-title: "my_portfolio"
+title: "Hi! I'm Rick! 👋"
+format: html
+css: www/custom.css
 ---
 
-Hi! My name is Rick!
+Hi! My full name is Henrique Shiguemoto Felizardo. I have a bachelor's degree in Computer Science from the State University of Maringá, with 2 years of experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.  
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+You can download my [CV (English)](www/Data Analyst.pdf) or [CV (Portuguese)](www/Analista de Dados.pdf).  
+
+I work with great passion for solving real-world problems using teamwork, engineering, design, technology, and creativity.
+
+---
+
+## Main Interests
+
+<div class="card-container">
+  <div class="card">
+    <h3>Game Dev</h3>
+    <p>Graphics, Game Programming, and Design</p>
+  </div>
+  <div class="card">
+    <h3>Data Analysis</h3>
+    <p>Statistics, Data Manipulation, and Visualization</p>
+  </div>
+  <div class="card">
+    <h3>Software Eng.</h3>
+    <p>Development, Testing, and Maintenance</p>
+  </div>
+</div>
