@@ -1,0 +1,132 @@
+/* Intro Section */
+.intro-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.intro-text {
+  flex: 2;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.intro-photo img {
+  width: 280px;        /* force width */
+  height: 280px;       /* force height (same as width) */
+  object-fit: cover;   /* crop instead of squish */
+  border-radius: 50%;  /* perfect circle */
+  margin-left: 1.5rem;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-column {
+  flex: 1;
+}
+
+.skill-column h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.skill-column ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+.skill-column li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .skills-grid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-column {
+    width: 100%;
+  }
+}
+
+/* Intro Section */
+.intro-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.intro-text {
+  flex: 2;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.intro-photo img {
+  width: 280px;        /* force width */
+  height: 280px;       /* force height (same as width) */
+  object-fit: cover;   /* crop instead of squish */
+  border-radius: 50%;  /* perfect circle */
+  margin-left: 1.5rem;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-column {
+  flex: 1;
+}
+
+.skill-column h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.skill-column ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+.skill-column li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .skills-grid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-column {
+    width: 100%;
+  }
+}

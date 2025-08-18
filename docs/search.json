@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Hi! I’m Rick! 👋",
     "section": "",
-    "text": "Hi! My full name is Henrique Shiguemoto Felizardo. I have a bachelor’s degree in Computer Science from the State University of Maringá, with 2 years of experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.\nYou can download my CV (English) or CV (Portuguese).\nI work with great passion for solving real-world problems using teamwork, engineering, design, technology, and creativity."
+    "text": "Hi! My full name is Henrique Shiguemoto Felizardo. I have a bachelor’s degree in Computer Science from State University of Maringá, with more than 2 years of professional experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.\nYou can download my CV (English) or CV (Portuguese).\nI am dedicated to applying data, technology, and design to create impactful solutions that drive meaningful results. With a versatile skill set spanning analysis, development, and visualization, I aim to deliver insights and solutions that make a tangible difference."
   },
   {
     "objectID": "index.html#main-interests",
@@ -23,8 +23,36 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact",
+    "title": "Reach Me Out!",
     "section": "",
-    "text": "Reach Me Out!\n\nEmail: rick@example.com\n\nLinkedIn: linkedin.com/in/rick\n\nGitHub: github.com/rick\n\nYouTube: youtube.com/rick\n\nDiscord: Rick#1234\n\nYou can also follow me on Facebook, Instagram, or view my Tableau visualizations."
+    "text": "Email: shiguemoto88@gmail.com\n\nLinkedIn: Link\n\nGitHub: Link\n\nTableau: Link"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Data Analysis Projects",
+    "section": "",
+    "text": "These projects relate mainly to Statistics, Data Visualization, and Data Engineering.\n\n\nOper Works\n\n\n\nOper Works\n\n\nWorked for 1.5 years at Oper using R, Python, SQL, Azure Databricks, Excel, and Shiny, improving decision-making for clients.\n\n\n\nDATASUS Dashboard\n\n\n\nDATASUS\n\n\n1-year undergraduate research creating a public health dashboard prototype using R + Shiny + ggplot2.\nView Dashboard\n\n\n\nTableau Dashboards\n\n\n\nTableau\n\n\nCreated dashboards from Kaggle datasets after completing LinkedIn Learning Tableau course, focusing on storytelling and KPI visualization.\n\n\n\nHCI Dashboard Project\n\n\n\nHCI Dashboard\n\n\nBachelor’s dissertation applying HCI techniques to dashboard design. Tools: R, ggplot2, Shiny. Data: public COVID-19 datasets for Maringá."
+  },
+  {
+    "objectID": "achievements.html",
+    "href": "achievements.html",
+    "title": "Achievements & Certifications",
+    "section": "",
+    "text": "You can hover over each card for details.\n\n\n&lt;img src=\"www/certificates/UEM.png\" alt=\"CS Degree\"&gt;\n&lt;h4&gt;CS Bachelor's Degree&lt;/h4&gt;\n&lt;p&gt;Completed Computer Science degree at State University of Maringá (2019-2023).&lt;/p&gt;\n\n\n&lt;img src=\"www/certificates/Kreativstorm.png\" alt=\"Kreativstorm DA Program\"&gt;\n&lt;h4&gt;Kreativstorm DA Program&lt;/h4&gt;\n&lt;p&gt;1 month Data Analysis training program learning applied statistics and R/Python.&lt;/p&gt;"
+  },
+  {
+    "objectID": "index.html#main-skills-and-technologies",
+    "href": "index.html#main-skills-and-technologies",
+    "title": "Hi! I’m Rick! 👋",
+    "section": "Main Skills and Technologies",
+    "text": "Main Skills and Technologies\n\n\n\nData Analysis\n\n\n\nStorytelling\n\n\nDashboard Development\n\n\nR\n\n\nPython\n\n\nSQL\n\n\nShiny\n\n\nTableau\n\n\nAzure Databricks\n\n\nExcel\n\n\nPySpark\n\n\n\n\n\nGame Development\n\n\n\nLow Level Programming\n\n\nGame Design\n\n\nC\n\n\nC++\n\n\nC#\n\n\nJava\n\n\nSDL3\n\n\nOpenGL\n\n\nUnity\n\n\nMicrosoft Visual Studio\n\n\n\n\n\nSoftware Engineering\n\n\n\nMobile and Desktop\n\n\nHCI Design\n\n\nFlutter\n\n\nDart\n\n\nJava\n\n\nC#\n\n\nWinForms\n\n\nTesting\n\n\nDebugging\n\n\nRefactoring"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Hi! I’m Rick! 👋",
+    "section": "Get in Touch",
+    "text": "Get in Touch\n\n\n\nEmail: shiguemoto88@gmail.com\n\n\nLinkedIn: linkedin.com/in/henrique-felizardo\n\n\nGitHub: github.com/Henrique-Shiguemoto\n\n\nTableau: public.tableau.com/henrique.felizardo"
   }
 ]

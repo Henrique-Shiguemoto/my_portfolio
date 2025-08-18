@@ -4,27 +4,120 @@ format: html
 css: www/custom.css
 ---
 
-Hi! My full name is Henrique Shiguemoto Felizardo. I have a bachelor's degree in Computer Science from the State University of Maringá, with 2 years of experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.  
+::::: intro-container
+::: intro-text
+Hi! My full name is **Henrique Shiguemoto Felizardo**. I have a bachelor's degree in Computer Science from State University of Maringá, with more than 2 years of professional experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.
 
-You can download my [CV (English)](www/Data Analyst.pdf) or [CV (Portuguese)](www/Analista de Dados.pdf).  
+You can download my [CV (English)](www/Data%20Analyst.pdf) or [CV (Portuguese)](www/Analista%20de%20Dados.pdf).
 
-I work with great passion for solving real-world problems using teamwork, engineering, design, technology, and creativity.
+I am dedicated to applying data, technology, and design to create impactful solutions that drive meaningful results. With a versatile skill set spanning analysis, development, and visualization, I aim to deliver insights and solutions that make a tangible difference.
+:::
 
----
+::: intro-photo
+<img src="www/profile.jpeg" alt="Henrique Shiguemoto"/>
+:::
+:::::
 
-## Main Interests
+## Main Skills and Technologies
 
-<div class="card-container">
-  <div class="card">
-    <h3>Game Dev</h3>
-    <p>Graphics, Game Programming, and Design</p>
-  </div>
-  <div class="card">
-    <h3>Data Analysis</h3>
-    <p>Statistics, Data Manipulation, and Visualization</p>
-  </div>
-  <div class="card">
-    <h3>Software Eng.</h3>
-    <p>Development, Testing, and Maintenance</p>
-  </div>
-</div>
+:::::: skills-grid
+::: skill-column
+<h3>Data Analysis</h3>
+
+<ul>
+
+<li>Storytelling</li>
+
+<li>Dashboard Development</li>
+
+<li>R</li>
+
+<li>Python</li>
+
+<li>SQL</li>
+
+<li>Shiny</li>
+
+<li>Tableau</li>
+
+<li>Azure Databricks</li>
+
+<li>Excel</li>
+
+<li>PySpark</li>
+
+</ul>
+:::
+
+::: skill-column
+<h3>Game Development</h3>
+
+<ul>
+
+<li>Low Level Programming</li>
+
+<li>Game Design</li>
+
+<li>C</li>
+
+<li>C++</li>
+
+<li>C#</li>
+
+<li>Java</li>
+
+<li>SDL3</li>
+
+<li>OpenGL</li>
+
+<li>Unity</li>
+
+<li>Microsoft Visual Studio</li>
+
+</ul>
+:::
+
+::: skill-column
+<h3>Software Engineering</h3>
+
+<ul>
+
+<li>Mobile and Desktop</li>
+
+<li>HCI Design</li>
+
+<li>Flutter</li>
+
+<li>Dart</li>
+
+<li>Java</li>
+
+<li>C#</li>
+
+<li>WinForms</li>
+
+<li>Testing</li>
+
+<li>Debugging</li>
+
+<li>Refactoring</li>
+
+</ul>
+:::
+::::::
+
+## Get in Touch
+
+::: contact-section
+<ul>
+
+<li><strong>Email:</strong> <a href="mailto:shiguemoto88@gmail.com">shiguemoto88\@gmail.com</a></li>
+
+<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/henrique-felizardo-784533241/" target="_blank">linkedin.com/in/henrique-felizardo</a></li>
+
+<li><strong>GitHub:</strong> <a href="https://github.com/Henrique-Shiguemoto" target="_blank">github.com/Henrique-Shiguemoto</a></li>
+
+<li><strong>Tableau:</strong> <a href="https://public.tableau.com/app/profile/henrique.felizardo" target="_blank">public.tableau.com/henrique.felizardo</a></li>
+
+</ul>
+:::
