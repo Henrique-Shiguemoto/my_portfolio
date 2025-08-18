@@ -30,9 +30,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Data Analysis Projects",
+    "title": "Projects",
     "section": "",
-    "text": "These projects relate mainly to Statistics, Data Visualization, and Data Engineering.\n\n\nOper Works\n\n\n\nOper Works\n\n\nWorked for 1.5 years at Oper using R, Python, SQL, Azure Databricks, Excel, and Shiny, improving decision-making for clients.\n\n\n\nDATASUS Dashboard\n\n\n\nDATASUS\n\n\n1-year undergraduate research creating a public health dashboard prototype using R + Shiny + ggplot2.\nView Dashboard\n\n\n\nTableau Dashboards\n\n\n\nTableau\n\n\nCreated dashboards from Kaggle datasets after completing LinkedIn Learning Tableau course, focusing on storytelling and KPI visualization.\n\n\n\nHCI Dashboard Project\n\n\n\nHCI Dashboard\n\n\nBachelor’s dissertation applying HCI techniques to dashboard design. Tools: R, ggplot2, Shiny. Data: public COVID-19 datasets for Maringá."
+    "text": "A curated selection of work across Data Analysis, Software Engineering, and Game Development.\nEach entry includes a short overview, key contributions, and the tech used."
   },
   {
     "objectID": "achievements.html",
@@ -54,5 +54,26 @@
     "title": "Hi! I’m Rick! 👋",
     "section": "Get in Touch",
     "text": "Get in Touch\n\n\n\nEmail: shiguemoto88@gmail.com\n\n\nLinkedIn: linkedin.com/in/henrique-felizardo\n\n\nGitHub: github.com/Henrique-Shiguemoto\n\n\nTableau: public.tableau.com/henrique.felizardo"
+  },
+  {
+    "objectID": "projects.html#data-analysis",
+    "href": "projects.html#data-analysis",
+    "title": "Projects",
+    "section": "🧩 Data Analysis",
+    "text": "🧩 Data Analysis\n\n\n\nOper Works (Client Projects)\n\n\nSupported national and international clients with analytics, dashboards, and data engineering to inform decision-making.\n\n\n\nBuilt and optimized SQL/ELT workflows in Azure Databricks\n\n\nDeveloped and maintained Shiny dashboards and Excel reports\n\n\nPartnered with stakeholders to define KPIs and deliver actionable insights\n\n\n\nTech: R, Python, SQL, Azure Databricks, Shiny, Excel\n\n\nCompany site · Work samples private\n\n\n\n\nDATASUS Mortality Dashboard\n\n\nResearch prototype exploring Brazilian SUS mortality data with interactive visual narratives.\n\n\n\nDesigned filters and views by cause, region, and time\n\n\nEngineered data cleaning to handle public dataset edge cases\n\n\n\nTech: R, Shiny, ggplot2\n\n\nOpen dashboard\n\n\n\n\nTableau Data Visualizations\n\n\nStory-driven dashboards built from public datasets, focusing on clear KPIs and comprehension.\n\n\n\nRapid EDA to identify the most relevant metrics\n\n\nSingle-view dashboards to support cohesive storytelling\n\n\n\nTech: Tableau, SQL, Excel\n\n\nTableau Public gallery\n\n\n\n\nHCI-Guided Dashboard Development\n\n\nBachelor’s dissertation applying HCI techniques to the end-to-end dashboard process using open COVID-19 data for Maringá.\n\n\n\nRan user research and translated findings into UI/UX requirements\n\n\nBuilt an interactive prototype aligned to HCI best practices\n\n\n\nTech: R, Shiny, ggplot2, HCI methods"
+  },
+  {
+    "objectID": "projects.html#software-engineering",
+    "href": "projects.html#software-engineering",
+    "title": "Projects",
+    "section": "💻 Software Engineering",
+    "text": "💻 Software Engineering\n\n\n\nBipaNota (Barcode Verification App)\n\n\nAndroid app for small retailers to speed up goods verification against fiscal notes via barcode scanning.\n\n\n\nImplemented camera-based scanning and product matching logic\n\n\nLed development and testing for internal Google Play pilots\n\n\n\nTech: Flutter, Dart\n\n\nClosed testing · work in progress\n\n\n\n\nStelf (Game Store Prototype)\n\n\nUniversity team project inspired by Steam; end-to-end desktop app with catalog and persistence.\n\n\n\nScrum-style development with a 4-student team over ~3 months\n\n\nWinForms UI and MongoDB backend integration\n\n\n\nTech: C#, WinForms, MongoDB, Visual Studio\n\n\n\n\nGesture Recognition for Health IS\n\n\nUndergrad research using Leap Motion to replace touch-based input in a web Health Information System.\n\n\n\nGesture mapping to web navigation with Selenium automation\n\n\nPresented results at EAITI 2022 and CBIS 2022\n\n\n\nTech: Java, Selenium, Leap Motion"
+  },
+  {
+    "objectID": "projects.html#game-development",
+    "href": "projects.html#game-development",
+    "title": "Projects",
+    "section": "🎮 Game Development",
+    "text": "🎮 Game Development\n\n\n\nQuickJelly\n\n\nFirst 2D game—collect fruits, dodge enemies, beat the timer.\n\n\n\nLearned 2D gameplay, physics, audio, rendering, and design\n\n\n\nTech: Unity, C#, Visual Studio\n\n\nGameplay video\n\n\n\n\nQuickFlower\n\n\nEngine-less 2D survival game—avoid bees and survive 15 seconds per level.\n\n\n\nImplemented bitmap loading, audio, CPU-side rasterization, and SIMD\n\n\n\nTech: C, Win32 API, Visual Studio\n\n\nGameplay video"
   }
 ]
