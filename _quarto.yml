@@ -16,6 +16,7 @@ website:
         href: achievements.qmd
       - text: "Contact"
         href: contact.qmd
+      # Maybe add a blog tab as well, that'd be fun
 
 format:
   html:

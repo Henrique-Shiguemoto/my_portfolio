@@ -7,38 +7,13 @@ css: www/custom.css
 A curated selection of work across **Data Analysis**, **Software Engineering**, and **Game Development**.\
 Each entry includes a short overview, key contributions, and the tech used.
 
-## 🧩 Data Analysis
+## 📈 Data Analysis
 
-::::::: {.grid-container .projects-grid}
+:::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
-<h3>Oper Works (Client Projects)</h3>
 
-<p>Supported national and international clients with analytics, dashboards, and data engineering to inform decision-making.</p>
+<img src="www/data_analysis/Oper 1.png" alt="Oper"/>
 
-<ul>
-
-<li>Built and optimized SQL/ELT workflows in Azure Databricks</li>
-
-<li>Developed and maintained Shiny dashboards and Excel reports</li>
-
-<li>Partnered with stakeholders to define KPIs and deliver actionable insights</li>
-
-</ul>
-
-<p class="project-tech">
-
-<strong>Tech:</strong> R, Python, SQL, Azure Databricks, Shiny, Excel
-
-</p>
-
-<p class="project-links">
-
-<a href="https://operdata.com.br/" target="_blank">Company site</a> · <em>Work samples private</em>
-
-</p>
-:::
-
-::: {.grid-card .project-card}
 <h3>DATASUS Mortality Dashboard</h3>
 
 <p>Research prototype exploring Brazilian SUS mortality data with interactive visual narratives.</p>

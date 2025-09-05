@@ -1,5 +1,5 @@
 ---
-title: "Hi! I'm Rick! 👋"
+title: "Hi! I'm Rick!"
 format: html
 css: www/custom.css
 ---
@@ -14,7 +14,7 @@ I am dedicated to applying data, technology, and design to create impactful solu
 :::
 
 ::: intro-photo
-<img src="www/profile.jpeg" alt="Henrique Shiguemoto"/>
+<img src="www/me1.jpg" alt="Henrique Shiguemoto"/>
 :::
 :::::
 

@@ -9,7 +9,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi! I’m Rick! 👋",
+    "title": "Hi! I’m Rick!",
     "section": "",
     "text": "Hi! My full name is Henrique Shiguemoto Felizardo. I have a bachelor’s degree in Computer Science from State University of Maringá, with more than 2 years of professional experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.\nYou can download my CV (English) or CV (Portuguese).\nI am dedicated to applying data, technology, and design to create impactful solutions that drive meaningful results. With a versatile skill set spanning analysis, development, and visualization, I aim to deliver insights and solutions that make a tangible difference."
   },
@@ -44,14 +44,14 @@
   {
     "objectID": "index.html#main-skills-and-technologies",
     "href": "index.html#main-skills-and-technologies",
-    "title": "Hi! I’m Rick! 👋",
+    "title": "Hi! I’m Rick!",
     "section": "Main Skills and Technologies",
     "text": "Main Skills and Technologies\n\n\n\nData Analysis\n\n\n\nStorytelling\n\n\nDashboard Development\n\n\nR\n\n\nPython\n\n\nSQL\n\n\nShiny\n\n\nTableau\n\n\nAzure Databricks\n\n\nExcel\n\n\nPySpark\n\n\n\n\n\nGame Development\n\n\n\nLow Level Programming\n\n\nGame Design\n\n\nC\n\n\nC++\n\n\nC#\n\n\nJava\n\n\nSDL3\n\n\nOpenGL\n\n\nUnity\n\n\nMicrosoft Visual Studio\n\n\n\n\n\nSoftware Engineering\n\n\n\nMobile and Desktop\n\n\nHCI Design\n\n\nFlutter\n\n\nDart\n\n\nJava\n\n\nC#\n\n\nWinForms\n\n\nTesting\n\n\nDebugging\n\n\nRefactoring"
   },
   {
     "objectID": "index.html#get-in-touch",
     "href": "index.html#get-in-touch",
-    "title": "Hi! I’m Rick! 👋",
+    "title": "Hi! I’m Rick!",
     "section": "Get in Touch",
     "text": "Get in Touch\n\n\n\nEmail: shiguemoto88@gmail.com\n\n\nLinkedIn: linkedin.com/in/henrique-felizardo\n\n\nGitHub: github.com/Henrique-Shiguemoto\n\n\nTableau: public.tableau.com/henrique.felizardo"
   },
@@ -59,8 +59,8 @@
     "objectID": "projects.html#data-analysis",
     "href": "projects.html#data-analysis",
     "title": "Projects",
-    "section": "🧩 Data Analysis",
-    "text": "🧩 Data Analysis\n\n\n\nOper Works (Client Projects)\n\n\nSupported national and international clients with analytics, dashboards, and data engineering to inform decision-making.\n\n\n\nBuilt and optimized SQL/ELT workflows in Azure Databricks\n\n\nDeveloped and maintained Shiny dashboards and Excel reports\n\n\nPartnered with stakeholders to define KPIs and deliver actionable insights\n\n\n\nTech: R, Python, SQL, Azure Databricks, Shiny, Excel\n\n\nCompany site · Work samples private\n\n\n\n\nDATASUS Mortality Dashboard\n\n\nResearch prototype exploring Brazilian SUS mortality data with interactive visual narratives.\n\n\n\nDesigned filters and views by cause, region, and time\n\n\nEngineered data cleaning to handle public dataset edge cases\n\n\n\nTech: R, Shiny, ggplot2\n\n\nOpen dashboard\n\n\n\n\nTableau Data Visualizations\n\n\nStory-driven dashboards built from public datasets, focusing on clear KPIs and comprehension.\n\n\n\nRapid EDA to identify the most relevant metrics\n\n\nSingle-view dashboards to support cohesive storytelling\n\n\n\nTech: Tableau, SQL, Excel\n\n\nTableau Public gallery\n\n\n\n\nHCI-Guided Dashboard Development\n\n\nBachelor’s dissertation applying HCI techniques to the end-to-end dashboard process using open COVID-19 data for Maringá.\n\n\n\nRan user research and translated findings into UI/UX requirements\n\n\nBuilt an interactive prototype aligned to HCI best practices\n\n\n\nTech: R, Shiny, ggplot2, HCI methods"
+    "section": "📈 Data Analysis",
+    "text": "📈 Data Analysis\n\n\n\n\nDATASUS Mortality Dashboard\n\n\nResearch prototype exploring Brazilian SUS mortality data with interactive visual narratives.\n\n\n\nDesigned filters and views by cause, region, and time\n\n\nEngineered data cleaning to handle public dataset edge cases\n\n\n\nTech: R, Shiny, ggplot2\n\n\nOpen dashboard\n\n\n\n\nTableau Data Visualizations\n\n\nStory-driven dashboards built from public datasets, focusing on clear KPIs and comprehension.\n\n\n\nRapid EDA to identify the most relevant metrics\n\n\nSingle-view dashboards to support cohesive storytelling\n\n\n\nTech: Tableau, SQL, Excel\n\n\nTableau Public gallery\n\n\n\n\nHCI-Guided Dashboard Development\n\n\nBachelor’s dissertation applying HCI techniques to the end-to-end dashboard process using open COVID-19 data for Maringá.\n\n\n\nRan user research and translated findings into UI/UX requirements\n\n\nBuilt an interactive prototype aligned to HCI best practices\n\n\n\nTech: R, Shiny, ggplot2, HCI methods"
   },
   {
     "objectID": "projects.html#software-engineering",
@@ -81,6 +81,6 @@
     "href": "career.html",
     "title": "Professional Career",
     "section": "",
-    "text": "Self-Employed - Freelance Data Analyst\n\n● Aug 2025 - Current\nI am building my freelance career as a Data Analyst, focusing on delivering data-driven insights and interactive solutions for clients. My work primarily involves using R, Shiny, and Tableau to develop dashboards, reports, and analytical tools that transform raw data into actionable information.\nThrough these projects, I aim to help businesses and individuals improve decision-making, streamline processes, and better understand their data.\n\n\n\nOper - Data Analyst\n\n● Mar 2024 - Aug 2025 (1 year and 5 months)\nAs a Data Analyst, I collaborated with multidisciplinary teams to analyze large datasets and deliver insights that improved decision-making for clients. I designed and optimized data pipelines to enhance accessibility and processing efficiency, and I created and maintained dozens of interactive dashboards and reports for major national and international clients.\nThese solutions contributed to more than R$2,500,000 in additional gross profit and supported long-term business growth. Throughout these projects, I worked with a wide range of technologies, including R, Python, SQL, Azure Databricks, PySpark, Excel, and Shiny, to build analyses, reports, dashboards, and ETL pipelines.\n\n\n\nKreativstorm - Data Analyst Trainee\n\n● Aug 2023 - Sep 2023 (2 months)\nI collaborated with a diverse team of data analysts and students from around the world on complex case studies analyzing household behavior in the UK. During this experience, I enhanced my proficiency in R and Python by applying theoretical knowledge to practical scenarios, while also improving my spoken and written English through teamwork and presentations, which strengthened my ability to communicate effectively in an international setting."
+    "text": "Self-Employed - Freelance Data Analyst\n\n\n● Aug 2025 - Current\nI am building my freelance career as a Data Analyst, focusing on delivering data-driven insights and interactive solutions for clients. My work primarily involves using R, Shiny, and Tableau to develop dashboards, reports, and analytical tools that transform raw data into actionable information.\nThrough these projects, I aim to help businesses and individuals improve decision-making, streamline processes, and better understand their data.\n\n\n\n\n\n\n\n\nOper - Data Analyst\n\n\n● Mar 2024 - Aug 2025 (1 year and 5 months)\nAs a Data Analyst, I collaborated with multidisciplinary teams to analyze large datasets and deliver insights that improved decision-making for clients. I designed and optimized data pipelines to enhance accessibility and processing efficiency, and I created and maintained dozens of interactive dashboards and reports for major national and international clients.\nThese solutions contributed to more than R$2,500,000 in additional gross profit and supported long-term business growth. Throughout these projects, I worked with a wide range of technologies, including R, Python, SQL, Azure Databricks, PySpark, Excel, and Shiny, to build analyses, reports, dashboards, and ETL pipelines.\n\n\n\n\n\n\n\n\nKreativstorm - Data Analyst Trainee\n\n\n● Aug 2023 - Sep 2023 (2 months)\nI collaborated with a diverse team of data analysts and students from around the world on complex case studies analyzing household behavior in the UK. During this experience, I enhanced my proficiency in R and Python by applying theoretical knowledge to practical scenarios, while also improving my spoken and written English through teamwork and presentations, which strengthened my ability to communicate effectively in an international setting."
   }
 ]

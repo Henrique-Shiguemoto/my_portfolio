@@ -147,6 +147,31 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.project-card img {
+  max-width: 100%;   /* stay within card */
+  height: auto;      /* scale proportionally */
+  display: block;    /* avoids inline spacing */
+  margin-bottom: 0.6rem; /* spacing below image */
+  border-radius: 8px; /* optional rounded edges */
+}
+
+.career-entry {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* text left, image right */
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.career-entry .career-text {
+  flex: 1; /* text takes remaining width */
+}
+
+.career-entry .career-logo {
+  max-width: 150px; /* adjust as needed */
+  flex-shrink: 0; /* image doesn't shrink */
+}
+
 .project-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0,0,0,0.12);
