@@ -4,12 +4,16 @@ format: html
 css: www/custom.css
 ---
 
-<div class="contact-container">
+::: contact-section
+<ul>
 
-<div class="contact-links">
+<li><strong>Email:</strong> <a href="mailto:shiguemoto88@gmail.com">shiguemoto88\@gmail.com</a></li>
 
-- **Email:** shiguemoto88@gmail.com  
-- **LinkedIn:** [Link](https://www.linkedin.com/in/henrique-felizardo-784533241/)  
-- **GitHub:** [Link](https://github.com/Henrique-Shiguemoto)  
-- **Tableau:** [Link](https://public.tableau.com/app/profile/henrique.felizardo)  
+<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/henrique-felizardo-784533241/" target="_blank">linkedin.com/in/henrique-felizardo</a></li>
 
+<li><strong>GitHub:</strong> <a href="https://github.com/Henrique-Shiguemoto" target="_blank">github.com/Henrique-Shiguemoto</a></li>
+
+<li><strong>Tableau:</strong> <a href="https://public.tableau.com/app/profile/henrique.felizardo" target="_blank">public.tableau.com/henrique.felizardo</a></li>
+
+</ul>
+:::

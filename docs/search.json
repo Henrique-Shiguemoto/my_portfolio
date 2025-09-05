@@ -25,7 +25,7 @@
     "href": "contact.html",
     "title": "Reach Me Out!",
     "section": "",
-    "text": "Email: shiguemoto88@gmail.com\n\nLinkedIn: Link\n\nGitHub: Link\n\nTableau: Link"
+    "text": "Email: shiguemoto88@gmail.com\n\n\nLinkedIn: linkedin.com/in/henrique-felizardo\n\n\nGitHub: github.com/Henrique-Shiguemoto\n\n\nTableau: public.tableau.com/henrique.felizardo"
   },
   {
     "objectID": "projects.html",
@@ -75,5 +75,12 @@
     "title": "Projects",
     "section": "🎮 Game Development",
     "text": "🎮 Game Development\n\n\n\nQuickJelly\n\n\nFirst 2D game—collect fruits, dodge enemies, beat the timer.\n\n\n\nLearned 2D gameplay, physics, audio, rendering, and design\n\n\n\nTech: Unity, C#, Visual Studio\n\n\nGameplay video\n\n\n\n\nQuickFlower\n\n\nEngine-less 2D survival game—avoid bees and survive 15 seconds per level.\n\n\n\nImplemented bitmap loading, audio, CPU-side rasterization, and SIMD\n\n\n\nTech: C, Win32 API, Visual Studio\n\n\nGameplay video"
+  },
+  {
+    "objectID": "career.html",
+    "href": "career.html",
+    "title": "Professional Career",
+    "section": "",
+    "text": "Self-Employed - Freelance Data Analyst\n\n● Aug 2025 - Current\nI am building my freelance career as a Data Analyst, focusing on delivering data-driven insights and interactive solutions for clients. My work primarily involves using R, Shiny, and Tableau to develop dashboards, reports, and analytical tools that transform raw data into actionable information.\nThrough these projects, I aim to help businesses and individuals improve decision-making, streamline processes, and better understand their data.\n\n\n\nOper - Data Analyst\n\n● Mar 2024 - Aug 2025 (1 year and 5 months)\nAs a Data Analyst, I collaborated with multidisciplinary teams to analyze large datasets and deliver insights that improved decision-making for clients. I designed and optimized data pipelines to enhance accessibility and processing efficiency, and I created and maintained dozens of interactive dashboards and reports for major national and international clients.\nThese solutions contributed to more than R$2,500,000 in additional gross profit and supported long-term business growth. Throughout these projects, I worked with a wide range of technologies, including R, Python, SQL, Azure Databricks, PySpark, Excel, and Shiny, to build analyses, reports, dashboards, and ETL pipelines.\n\n\n\nKreativstorm - Data Analyst Trainee\n\n● Aug 2023 - Sep 2023 (2 months)\nI collaborated with a diverse team of data analysts and students from around the world on complex case studies analyzing household behavior in the UK. During this experience, I enhanced my proficiency in R and Python by applying theoretical knowledge to practical scenarios, while also improving my spoken and written English through teamwork and presentations, which strengthened my ability to communicate effectively in an international setting."
   }
 ]
