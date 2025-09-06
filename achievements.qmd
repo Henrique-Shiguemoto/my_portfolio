@@ -1,5 +1,199 @@
 ---
-title: "Achievements & Certifications"
+title: "Achievements"
 format: html
 css: www/custom.css
+markdown:
+  html: true
 ---
+
+# My Certifications and Achievements!
+
+A curated selection of **certifications** and **achievements**. Click **More Details** to learn more about each one.
+
+:::::: {.grid-container .projects-grid}
+
+::: {.grid-card .project-card}
+<img src="www/certificates/UEM.png"/>
+<h3>CS Bachelor's Degree</h3>
+<p>Completed my Computer Science bachelor's degree with a GPA of 3.3 at State University of Maringá.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-uem').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/Kreativstorm.png"/>
+<h3>Kreativstorm DA Program</h3>
+<p>1-month Data Analysis program with students worldwide, learning R, Python, statistics, and case studies.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-kreativstorm').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/EAITI 2022.png"/>
+<h3>EAITI 2022</h3>
+<p>Presented my Gesture Recognition for Health Information System project at the Annual Meeting of Technological Initiation and Innovation.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-eaiti').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/R_Shiny.png"/>
+<h3>Shiny Certificate</h3>
+<p>Learned the fundamentals of Shiny for creating interactive web apps in R.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-shiny').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/CBIS 2022.png"/>
+<h3>CBIS 2022</h3>
+<p>Presented the Gesture Recognition project at the 19th Brazilian Congress of Health Informatics organized by SBIS.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-cbis').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/SQL.png"/>
+<h3>SQL Certificate</h3>
+<p>Learned basics of SQL including DQL and DML sublanguages.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-sql').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/PBF.png"/>
+<h3>PBF English Certificate</h3>
+<p>English course provided by Pink and Blue Freedom school of languages.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-pbf').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/Tableau.png"/>
+<h3>Tableau Certificate</h3>
+<p>Learned to create dashboards and visualizations using Tableau.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-tableau').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::: {.grid-card .project-card}
+<img src="www/certificates/EBEP.png"/>
+<h3>Admin. Assistant Certificate</h3>
+<p>1-year course teaching Basic Informatics, Office, File Organization, Work Health & Safety, Accounting, and Communication.</p>
+<p class="achievement-links">
+<a href="#" onclick="document.getElementById('modal-ebep').style.display='block'; return false;">More details</a>
+</p>
+:::
+
+::::::
+
+<!-- Modals -->
+```{=html}
+<div id="modal-uem" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-uem').style.display='none'">&times;</span>
+    <h3>CS Bachelor's Degree</h3>
+    <p>From 2019 to 2023, completed Computer Science at State University of Maringá with a GPA of 3.3.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-kreativstorm" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-kreativstorm').style.display='none'">&times;</span>
+    <h3>Kreativstorm DA Program</h3>
+    <p>Participated in a 1-month global Data Analysis program, learning applied statistics, R, Python, and solving case studies.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-eaiti" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-eaiti').style.display='none'">&times;</span>
+    <h3>EAITI 2022</h3>
+    <p>Presented the Gesture Recognition project at the Annual Meeting of Technological Initiation and Innovation.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-shiny" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-shiny').style.display='none'">&times;</span>
+    <h3>Shiny Certificate</h3>
+    <p>Covered fundamentals of Shiny for building interactive web apps in R.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-cbis" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-cbis').style.display='none'">&times;</span>
+    <h3>CBIS 2022</h3>
+    <p>Presented Gesture Recognition project at the 19th Brazilian Congress of Health Informatics organized by SBIS.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-sql" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-sql').style.display='none'">&times;</span>
+    <h3>SQL Certificate</h3>
+    <p>Basics of SQL, covering DQL and DML sublanguages.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-pbf" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-pbf').style.display='none'">&times;</span>
+    <h3>PBF English Certificate</h3>
+    <p>English course by Pink and Blue Freedom school of languages.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-tableau" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-tableau').style.display='none'">&times;</span>
+    <h3>Tableau Certificate</h3>
+    <p>Learned to create dashboards and visualizations with Tableau.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-ebep" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-ebep').style.display='none'">&times;</span>
+    <h3>Admin. Assistant Certificate</h3>
+    <p>1-year SENAI course covering Informatics, Office, File Organization, Work Health & Safety, Accounting, and Communication.</p>
+  </div>
+</div>
+```
+
+<script> 
+document.addEventListener("DOMContentLoaded", function () { 
+    window.addEventListener("click", function (event) { 
+        document.querySelectorAll(".modal").forEach(function (modal) { 
+            if (event.target === modal) { 
+                modal.style.display = "none"; 
+            } 
+        }); 
+    }); 
+}); 
+</script>
