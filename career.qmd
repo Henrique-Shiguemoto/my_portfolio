@@ -6,10 +6,6 @@ css: www/custom.css
 
 # Self-Employed - Freelance Data Analyst
 
-::: {.career-entry}
-
-<div class="career-text">
-
 #### ● Aug 2025 - Current
 
 I am building my freelance career as a Data Analyst, focusing on delivering
@@ -20,21 +16,9 @@ analytical tools that transform raw data into actionable information.
 Through these projects, I aim to help businesses and individuals improve
 decision-making, streamline processes, and better understand their data.
 
-</div>
-
-<div class="career-logo" style="margin-top: 40px;">
-![](www/logos/freelance.png)
-</div>
-
-:::
-
 ---
 
 # Oper - Data Analyst
-
-::: {.career-entry}
-
-<div class="career-text">
 
 #### ● Mar 2024 - Aug 2025 (1 year and 5 months)
 
@@ -49,21 +33,9 @@ supported long-term business growth. Throughout these projects, I worked with a 
 range of technologies, including R, Python, SQL, Azure Databricks, PySpark, Excel,
 and Shiny, to build analyses, reports, dashboards, and ETL pipelines.
 
-</div>
-
-<div class="career-logo" style="margin-top: 150px;">
-![](www/logos/oper.png)
-</div>
-
-:::
-
 ---
 
 # Kreativstorm - Data Analyst Trainee
-
-::: {.career-entry}
-
-<div class="career-text">
 
 #### ● Aug 2023 - Sep 2023 (2 months)
 
@@ -73,11 +45,3 @@ I enhanced my proficiency in R and Python by applying theoretical knowledge to p
 scenarios, while also improving my spoken and written English through teamwork and
 presentations, which strengthened my ability to communicate effectively in an international
 setting.
-
-</div>
-
-<div class="career-logo" style="margin-top: 50px;">
-![](www/logos/Kreativstorm.png)
-</div>
-
-:::

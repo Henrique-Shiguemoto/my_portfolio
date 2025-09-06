@@ -2,6 +2,8 @@
 title: "Projects"
 format: html
 css: www/custom.css
+markdown:
+  html: true
 ---
 
 A curated selection of work across **Data Analysis**, **Software Engineering**, and **Game Development**.\
@@ -12,76 +14,70 @@ Each entry includes a short overview, key contributions, and the tech used.
 :::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
 
-<img src="www/data_analysis/Oper 1.png" alt="Oper"/>
+<img src="www/data_analysis/DATASUS Dashboard 1.png"/>
 
 <h3>DATASUS Mortality Dashboard</h3>
 
 <p>Research prototype exploring Brazilian SUS mortality data with interactive visual narratives.</p>
 
 <ul>
-
 <li>Designed filters and views by cause, region, and time</li>
-
 <li>Engineered data cleaning to handle public dataset edge cases</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> R, Shiny, ggplot2
-
 </p>
 
 <p class="project-links">
-
-<a href="https://rickshinyprojects.shinyapps.io/DATASUS_SIM_PIBITI_UEM_DASH/" target="_blank">Open dashboard</a>
-
+<a href="https://rickshinyprojects.shinyapps.io/DATASUS_SIM_PIBITI_UEM_DASH/" target="_blank">Open dashboard</a> | 
+<a href="#" onclick="document.getElementById('modal-datasus').style.display='block'; return false;">More details</a>
 </p>
 :::
 
 ::: {.grid-card .project-card}
+
+<img src="www/data_analysis/Tableau 1 cut.png"/>
+
 <h3>Tableau Data Visualizations</h3>
 
-<p>Story-driven dashboards built from public datasets, focusing on clear KPIs and comprehension.</p>
+<p>Tableau dashboards built from public datasets, focusing on clear KPIs and comprehension.</p>
 
 <ul>
-
 <li>Rapid EDA to identify the most relevant metrics</li>
-
 <li>Single-view dashboards to support cohesive storytelling</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> Tableau, SQL, Excel
-
 </p>
 
 <p class="project-links">
-
-<a href="https://public.tableau.com/app/profile/henrique.felizardo/vizzes" target="_blank">Tableau Public gallery</a>
-
+<a href="https://public.tableau.com/app/profile/henrique.felizardo/vizzes" target="_blank">Tableau Public gallery</a> |
+<a href="#" onclick="document.getElementById('modal-datasus').style.display='block'; return false;">More details</a>
 </p>
 :::
 
 ::: {.grid-card .project-card}
+
+<img src="www/data_analysis/Dashboard X HCI 1.png"/>
+
 <h3>HCI-Guided Dashboard Development</h3>
 
-<p>Bachelor’s dissertation applying HCI techniques to the end-to-end dashboard process using open COVID-19 data for Maringá.</p>
+<p>HCI techniques applied to a dashboard using open COVID-19 data for Maringá.</p>
 
 <ul>
-
 <li>Ran user research and translated findings into UI/UX requirements</li>
-
 <li>Built an interactive prototype aligned to HCI best practices</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> R, Shiny, ggplot2, HCI methods
+</p>
 
+<p class="project-links">
+<em>Private Repo</em> | 
+<a href="#" onclick="document.getElementById('modal-hci').style.display='block'; return false;">More details</a>
 </p>
 :::
 :::::::
@@ -90,68 +86,71 @@ Each entry includes a short overview, key contributions, and the tech used.
 
 :::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
+
+<img src="www/soft_eng/BipaNota banner.png"/>
+
 <h3>BipaNota (Barcode Verification App)</h3>
 
-<p>Android app for small retailers to speed up goods verification against fiscal notes via barcode scanning.</p>
+<p>App for retailers to speed up goods verification against fiscal notes via barcode scanning.</p>
 
 <ul>
-
 <li>Implemented camera-based scanning and product matching logic</li>
-
 <li>Led development and testing for internal Google Play pilots</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> Flutter, Dart
-
 </p>
 
 <p class="project-links">
-
-<em>Closed testing · work in progress</em>
-
+<em>Closed testing · work in progress</em> | 
+<a href="#" onclick="document.getElementById('modal-bipanota').style.display='block'; return false;">More details</a>
 </p>
 :::
 
 ::: {.grid-card .project-card}
+
+<img src="www/soft_eng/Stelf 1 cut.png"/>
+
 <h3>Stelf (Game Store Prototype)</h3>
 
 <p>University team project inspired by Steam; end-to-end desktop app with catalog and persistence.</p>
 
 <ul>
-
-<li>Scrum-style development with a 4-student team over \~3 months</li>
-
+<li>Scrum-style development with a 4-student team over ~3 months</li>
 <li>WinForms UI and MongoDB backend integration</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> C#, WinForms, MongoDB, Visual Studio
+</p>
 
+<p class="project-links">
+<a href="https://github.com/Henrique-Shiguemoto/Stelf" target="_blank">Github Repo</a> | 
+<a href="#" onclick="document.getElementById('modal-stelf').style.display='block'; return false;">More details</a>
 </p>
 :::
 
 ::: {.grid-card .project-card}
+
+<img src="www/soft_eng/Gesture Recognition 1 cut.png"/>
+
 <h3>Gesture Recognition for Health IS</h3>
 
-<p>Undergrad research using Leap Motion to replace touch-based input in a web Health Information System.</p>
+<p>Research using Leap Motion to replace touch-based input in a web Health Information System.</p>
 
 <ul>
-
 <li>Gesture mapping to web navigation with Selenium automation</li>
-
 <li>Presented results at EAITI 2022 and CBIS 2022</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> Java, Selenium, Leap Motion
+</p>
 
+<p class="project-links">
+<em>Private Repo</em> | 
+<a href="#" onclick="document.getElementById('modal-gesture').style.display='block'; return false;">More details</a>
 </p>
 :::
 ::::::
@@ -160,50 +159,140 @@ Each entry includes a short overview, key contributions, and the tech used.
 
 ::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
+
+<img src="www/game_dev/QuickJelly 1 cut.png"/>
+
 <h3>QuickJelly</h3>
 
 <p>First 2D game—collect fruits, dodge enemies, beat the timer.</p>
 
 <ul>
-
 <li>Learned 2D gameplay, physics, audio, rendering, and design</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> Unity, C#, Visual Studio
-
 </p>
 
 <p class="project-links">
-
-<a href="https://youtu.be/C0IgPMbL2cQ" target="_blank">Gameplay video</a>
-
+<a href="https://youtu.be/C0IgPMbL2cQ" target="_blank">Gameplay video</a> | 
+<a href="#" onclick="document.getElementById('modal-quickjelly').style.display='block'; return false;">More details</a>
 </p>
 :::
 
 ::: {.grid-card .project-card}
+
+<img src="www/game_dev/QuickFlower 1.png"/>
+
 <h3>QuickFlower</h3>
 
 <p>Engine-less 2D survival game—avoid bees and survive 15 seconds per level.</p>
 
 <ul>
-
 <li>Implemented bitmap loading, audio, CPU-side rasterization, and SIMD</li>
-
 </ul>
 
 <p class="project-tech">
-
 <strong>Tech:</strong> C, Win32 API, Visual Studio
-
 </p>
 
 <p class="project-links">
-
-<a href="https://youtu.be/UYTEnszqbYk" target="_blank">Gameplay video</a>
-
+<a href="https://youtu.be/UYTEnszqbYk" target="_blank">Gameplay video</a> | 
+<a href="#" onclick="document.getElementById('modal-quickflower').style.display='block'; return false;">More details</a>
 </p>
 :::
 :::::
+
+---
+
+```{=html}
+<div id="modal-datasus" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-datasus').style.display='none'">&times;</span>
+    <h3>DATASUS Mortality Dashboard</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-tableau" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-tableau').style.display='none'">&times;</span>
+    <h3>Tableau Data Visualizations</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-hci" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-hci').style.display='none'">&times;</span>
+    <h3>HCI-Guided Dashboard Development</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-bipanota" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-bipanota').style.display='none'">&times;</span>
+    <h3>BipaNota</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-stelf" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-stelf').style.display='none'">&times;</span>
+    <h3>Stelf (Game Store Prototype)</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-gesture" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-gesture').style.display='none'">&times;</span>
+    <h3>Gesture Recognition for Health IS</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-quickjelly" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-quickjelly').style.display='none'">&times;</span>
+    <h3>QuickJelly</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div id="modal-quickflower" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-quickflower').style.display='none'">&times;</span>
+    <h3>QuickFlower</h3>
+    <p>[Add detailed description here]</p>
+  </div>
+</div>
+```
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("click", function (event) {
+    document.querySelectorAll(".modal").forEach(function (modal) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  });
+});
+</script>
