@@ -206,6 +206,20 @@
   line-height: 1.55;
 }
 
+.modal-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* spacing between images */
+  margin-top: 15px;
+}
+
+.modal-image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
 /* Close button */
 .close {
   position: absolute;
