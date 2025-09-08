@@ -10,92 +10,164 @@ markdown:
 
 A curated selection of **certifications** and **achievements**. Click **More Details** to learn more about each one.
 
-:::::: {.grid-container .projects-grid}
+:::::::::::: {.grid-container .projects-grid}
+::: {.grid-card .project-card}
+<img src="www/certificates/Become a Business Intelligence Specialist.png"/>
+
+<h3>Become a Business Intelligence Specialist Linkedin Course</h3>
+
+<p>Completed a 24 hour course on Business Intelligence on LinkedIn Learning</p>
+
+<p class="achievement-links">
+
+<a href="#" onclick="document.getElementById('modal-bi').style.display='block'; return false;">More details</a>
+
+</p>
+:::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/UEM.png"/>
+
 <h3>CS Bachelor's Degree</h3>
+
 <p>Completed my Computer Science bachelor's degree with a GPA of 3.3 at State University of Maringá.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-uem').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/Kreativstorm.png"/>
+
 <h3>Kreativstorm DA Program</h3>
+
 <p>2-month Data Analysis program with students worldwide, learning R, Python, statistics, and case studies.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-kreativstorm').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/EAITI 2022.png"/>
+
 <h3>EAITI 2022</h3>
+
 <p>Presented my Gesture Recognition for Health Information System project at the Annual Meeting of Technological Initiation and Innovation.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-eaiti').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/R_Shiny.png"/>
+
 <h3>Shiny Certificate</h3>
+
 <p>Learned the fundamentals of Shiny for creating interactive web apps in R.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-shiny').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/CBIS 2022.png"/>
+
 <h3>CBIS 2022</h3>
+
 <p>Presented the Gesture Recognition project at the 19th Brazilian Congress of Health Informatics organized by SBIS.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-cbis').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/SQL.png"/>
+
 <h3>SQL Certificate</h3>
+
 <p>Learned basics of SQL including DQL and DML sublanguages.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-sql').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/PBF.png"/>
+
 <h3>PBF English Certificate</h3>
+
 <p>English course provided by Pink and Blue Freedom school of languages.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-pbf').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/Tableau.png"/>
+
 <h3>Tableau Certificate</h3>
+
 <p>Learned to create dashboards and visualizations using Tableau.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-tableau').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
 <img src="www/certificates/EBEP.png"/>
+
 <h3>Admin. Assistant Certificate</h3>
+
 <p>1-year course teaching Basic Informatics, Office, File Organization, Work Health & Safety, Accounting, and Communication.</p>
+
 <p class="achievement-links">
+
 <a href="#" onclick="document.getElementById('modal-ebep').style.display='block'; return false;">More details</a>
+
 </p>
 :::
-
-::::::
+::::::::::::
 
 <!-- Modals -->
+
+```{=html}
+<div id="modal-bi" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-bi').style.display='none'">&times;</span>
+    <h3>Become a Business Intelligence Specialist Linkedin Course</h3>
+    
+    <p>Finished a 24 hour course on LinkedIn Learning on Business Intelligence. The key points on the course emphasized complicated business scenarios and how to deal with them, common analysis pitfalls, statistical concepts, industry standard technologies and data visualization theory.</p><br>
+    
+    <p>The technologies covered were Excel, PowerBI and Tableau. With many exercises and case studies along the way, this course enforced my knowledge of Business Intelligence but also for Statistic concepts in general. With this course, I was able to start projects with much more confidence and is certainly a great addition to any data analyst's career.</p>
+    
+  </div>
+</div>
+```
+
 ```{=html}
 <div id="modal-uem" class="modal">
   <div class="modal-content">
@@ -190,6 +262,7 @@ A curated selection of **certifications** and **achievements**. Click **More Det
 </div>
 ```
 
+```{=html}
 <script> 
 document.addEventListener("DOMContentLoaded", function () { 
     window.addEventListener("click", function (event) { 
@@ -201,3 +274,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }); 
 }); 
 </script>
+```

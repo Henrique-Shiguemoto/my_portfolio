@@ -220,7 +220,7 @@ Single-view dashboards to support cohesive storytelling
 </li>
 </ul>
 <p class="project-tech">
-</p><p><strong>Tech:</strong> Tableau, SQL, Excel</p>
+</p><p><strong>Tech:</strong> Tableau and Excel</p>
 <p></p>
 <p class="project-links">
 </p><p><a href="https://public.tableau.com/app/profile/henrique.felizardo/vizzes" target="_blank">Tableau Public gallery</a> | <a href="#" onclick="document.getElementById('modal-tableau').style.display='block'; return false;">More details</a></p>
@@ -294,10 +294,33 @@ Led development and testing for internal Google Play pilots
 </li>
 </ul>
 <p class="project-tech">
-</p><p><strong>Tech:</strong> Flutter, Dart</p>
+</p><p><strong>Tech:</strong> Flutter, Dart, Supabase and RevenueCat</p>
 <p></p>
 <p class="project-links">
 </p><p><em>Closed testing · work in progress</em> | <a href="#" onclick="document.getElementById('modal-bipanota').style.display='block'; return false;">More details</a></p>
+<p></p>
+</div>
+<div class="grid-card project-card">
+<p><img src="www/soft_eng/KinectPureData 2.png"></p>
+<h3>
+Body Recognition with Kinect and PD
+</h3>
+<p>
+System which makes body joints control musical notes, pitch and volume in Pure Data.
+</p>
+<ul>
+<li>
+Developed a desktop app with Kinect and C++ to recognize body joints.
+</li>
+<li>
+Through sockets, the app was connected to Pure Data to transmit body data.
+</li>
+</ul>
+<p class="project-tech">
+</p><p><strong>Tech:</strong> C++, Win32, Kinect and Pure Data</p>
+<p></p>
+<p class="project-links">
+</p><p><a href="https://youtu.be/JCE6xLo2_-w" target="_blank">Showcase video</a> | <a href="#" onclick="document.getElementById('modal-kinectpuredata').style.display='block'; return false;">More details</a></p>
 <p></p>
 </div>
 <div class="grid-card project-card">
@@ -493,6 +516,22 @@ Applied SIMD for rendering and QPC for timing with memory usage from syscalls.
   <img src="www/soft_eng/BipaNota 1.png">
   <img src="www/soft_eng/BipaNota 3.png">
   <img src="www/soft_eng/BipaNota 4.png">
+</div>
+
+  </div>
+</div>
+<div id="modal-kinectpuredata" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-kinectpuredata').style.display='none'">×</span>
+    <h3>Body Recognition with Kinect and PD</h3>
+    <p>This project was a freelance job I did for a Master's degree a student was pursuing at the same university I studied at (State University of Maringá). The idea was to create a system to recognize body joints with the Kinect sensor from Microsoft, specifically the Xbox One Kinect, and to create sounds with the recognized body. Together with the C++ programming language, I had to learn Pure Data which is a visual programming language to create sounds and music through circuit-like diagrams.</p><br>
+    
+    <p>I had to learn how to create diagrams in PureData and how to connect it to my other Kinect app so that I can send body joint data to create sounds. I did this by using sockets with the win32 API. Every number of frames (can be configured), a buffer containing all the body joint data is filled and sent through a socket, then the buffer gets cleared to be filled up again afterwards. The user can choose what join data will be sent through the socket.</p>
+
+<div class="modal-image-grid">
+  <img src="www/soft_eng/KinectPureData 1.png">
+  <img src="www/soft_eng/KinectPureData 3.png">
+  <img src="www/soft_eng/KinectPureData 4.png">
 </div>
 
   </div>
