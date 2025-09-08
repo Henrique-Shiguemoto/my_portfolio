@@ -13,7 +13,34 @@ Each entry includes a short overview, key contributions, and the tech used.
 
 :::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
+<img src="www/data_analysis/GameVerse banner.png"/>
 
+<h3>GameVerse</h3>
+
+<p>Game Studio Analysis Case Study to understand playerbase engagement and game revenue.</p>
+
+<ul>
+
+<li>Created databricks ETL pipeline with Spark using the medallion architecture.</li>
+
+<li>Created EDA visualization with Excel and then a dashboard with Tableau.</li>
+
+</ul>
+
+<p class="project-tech">
+
+<strong>Tech:</strong> Databricks, Spark, SQL, Excel, Tableau and Python
+
+</p>
+
+<p class="project-links">
+
+<a href="https://public.tableau.com/app/profile/henrique.felizardo/viz/GameVerse/Engagement" target="_blank">Open dashboard</a> \| <a href="#" onclick="document.getElementById('modal-gameverse').style.display='block'; return false;">More details</a>
+
+</p>
+:::
+
+::: {.grid-card .project-card}
 <img src="www/data_analysis/DATASUS Dashboard 1.png"/>
 
 <h3>DATASUS Mortality Dashboard</h3>
@@ -21,22 +48,27 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>Research prototype exploring Brazilian SUS mortality data with interactive visual narratives.</p>
 
 <ul>
+
 <li>Designed filters and views by cause, region, and time</li>
+
 <li>Engineered data cleaning to handle public dataset edge cases</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> R, Shiny, ggplot2
+
 </p>
 
 <p class="project-links">
-<a href="https://rickshinyprojects.shinyapps.io/DATASUS_SIM_PIBITI_UEM_DASH/" target="_blank">Open dashboard</a> | 
-<a href="#" onclick="document.getElementById('modal-datasus').style.display='block'; return false;">More details</a>
+
+<a href="https://rickshinyprojects.shinyapps.io/DATASUS_SIM_PIBITI_UEM_DASH/" target="_blank">Open dashboard</a> \| <a href="#" onclick="document.getElementById('modal-datasus').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
-
 <img src="www/data_analysis/Tableau 1 cut.png"/>
 
 <h3>Tableau Data Visualizations</h3>
@@ -44,22 +76,56 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>Tableau dashboards built from public datasets, focusing on clear KPIs and comprehension.</p>
 
 <ul>
+
 <li>Rapid EDA to identify the most relevant metrics</li>
+
 <li>Single-view dashboards to support cohesive storytelling</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> Tableau, SQL, Excel
+
 </p>
 
 <p class="project-links">
-<a href="https://public.tableau.com/app/profile/henrique.felizardo/vizzes" target="_blank">Tableau Public gallery</a> |
-<a href="#" onclick="document.getElementById('modal-tableau').style.display='block'; return false;">More details</a>
+
+<a href="https://public.tableau.com/app/profile/henrique.felizardo/vizzes" target="_blank">Tableau Public gallery</a> \| <a href="#" onclick="document.getElementById('modal-tableau').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
+<img src="www/data_analysis/LeapMotionCPythonGR 4.png">
 
+<h3>Gesture Recognition with Leap and ML</h3>
+
+<p>Comparison of ML Algorithms to classify gestures with Leap Motion</p>
+
+<ul>
+
+<li>Created a dataset with hand gesture data from 4 people with C and Leap Motion.</li>
+
+<li>Used ML and compared performance results for gesture classification.</li>
+
+</ul>
+
+<p class="project-tech">
+
+<strong>Tech:</strong> C, Python, scikit-learn and Leap Motion
+
+</p>
+
+<p class="project-links">
+
+<a href="https://github.com/Henrique-Shiguemoto/GR-Python-LM" target="_blank">Repo</a> \| 
+<a href="#" onclick="document.getElementById('modal-grcpy').style.display='block'; return false;">More details</a>
+
+</p>
+:::
+
+::: {.grid-card .project-card}
 <img src="www/data_analysis/Dashboard X HCI 1.png"/>
 
 <h3>HCI-Guided Dashboard Development</h3>
@@ -67,26 +133,31 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>HCI techniques applied to a dashboard using open COVID-19 data for Maringá.</p>
 
 <ul>
+
 <li>Ran user research and translated findings into UI/UX requirements</li>
+
 <li>Built an interactive prototype aligned to HCI best practices</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> R, Shiny, ggplot2, HCI methods
+
 </p>
 
 <p class="project-links">
-<em>Private Repo</em> | 
-<a href="#" onclick="document.getElementById('modal-hci').style.display='block'; return false;">More details</a>
+
+<em>Private Repo</em> \| <a href="#" onclick="document.getElementById('modal-hci').style.display='block'; return false;">More details</a>
+
 </p>
 :::
-:::::::
+::::::
 
 ## 💻 Software Engineering
 
 :::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
-
 <img src="www/soft_eng/BipaNota banner.png"/>
 
 <h3>BipaNota (Barcode Verification App)</h3>
@@ -94,22 +165,27 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>App for retailers to speed up goods verification against fiscal notes via barcode scanning.</p>
 
 <ul>
+
 <li>Implemented camera-based scanning and product matching logic</li>
+
 <li>Led development and testing for internal Google Play pilots</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> Flutter, Dart
+
 </p>
 
 <p class="project-links">
-<em>Closed testing · work in progress</em> | 
-<a href="#" onclick="document.getElementById('modal-bipanota').style.display='block'; return false;">More details</a>
+
+<em>Closed testing · work in progress</em> \| <a href="#" onclick="document.getElementById('modal-bipanota').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
-
 <img src="www/soft_eng/Stelf 1 cut.png"/>
 
 <h3>Stelf (Game Store Prototype)</h3>
@@ -117,22 +193,27 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>University team project inspired by Steam; end-to-end desktop app with catalog and persistence.</p>
 
 <ul>
-<li>Scrum-style development with a 4-student team over ~3 months</li>
+
+<li>Scrum-style development with a 4-student team over \~3 months</li>
+
 <li>WinForms UI and MongoDB backend integration</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> C#, WinForms, MongoDB, Visual Studio
+
 </p>
 
 <p class="project-links">
-<a href="https://github.com/Henrique-Shiguemoto/Stelf" target="_blank">Github Repo</a> | 
-<a href="#" onclick="document.getElementById('modal-stelf').style.display='block'; return false;">More details</a>
+
+<a href="https://github.com/Henrique-Shiguemoto/Stelf" target="_blank">Github Repo</a> \| <a href="#" onclick="document.getElementById('modal-stelf').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
-
 <img src="www/soft_eng/Gesture Recognition 1 cut.png"/>
 
 <h3>Gesture Recognition for Health IS</h3>
@@ -140,17 +221,23 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>Research using Leap Motion to replace touch-based input in a web Health Information System.</p>
 
 <ul>
+
 <li>Gesture mapping to web navigation with Selenium automation</li>
+
 <li>Presented research insights at EAITI 2022 and CBIS 2022</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> Java, Selenium, Leap Motion
+
 </p>
 
 <p class="project-links">
-<em>Private Repo</em> | 
-<a href="#" onclick="document.getElementById('modal-gesture').style.display='block'; return false;">More details</a>
+
+<em>Private Repo</em> \| <a href="#" onclick="document.getElementById('modal-gesture').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 ::::::
@@ -159,7 +246,6 @@ Each entry includes a short overview, key contributions, and the tech used.
 
 ::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
-
 <img src="www/game_dev/QuickJelly 1 cut.png"/>
 
 <h3>QuickJelly</h3>
@@ -167,22 +253,27 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>2D game about controlling a jelly, collecting fruits and avoiding enemies.</p>
 
 <ul>
+
 <li>Learned 2D gameplay, physics, audio, rendering, and design.</li>
+
 <li>Used Animation Controllers, sorting layers, colliders, prefabs and more.</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> Unity, C#, Visual Studio
+
 </p>
 
 <p class="project-links">
-<a href="https://youtu.be/C0IgPMbL2cQ" target="_blank">Gameplay video</a> | 
-<a href="#" onclick="document.getElementById('modal-quickjelly').style.display='block'; return false;">More details</a>
+
+<a href="https://youtu.be/C0IgPMbL2cQ" target="_blank">Gameplay video</a> \| <a href="#" onclick="document.getElementById('modal-quickjelly').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 
 ::: {.grid-card .project-card}
-
 <img src="www/game_dev/QuickFlower 1.png"/>
 
 <h3>QuickFlower</h3>
@@ -190,22 +281,50 @@ Each entry includes a short overview, key contributions, and the tech used.
 <p>Engine-less 2D survival game where you control a bee avoiding flowers on a timer.</p>
 
 <ul>
+
 <li>Implemented bitmap loading, audio and CPU rasterization with win32 and C.</li>
+
 <li>Applied SIMD for rendering and QPC for timing with memory usage from syscalls.</li>
+
 </ul>
 
 <p class="project-tech">
+
 <strong>Tech:</strong> C, Win32 API, Visual Studio
+
 </p>
 
 <p class="project-links">
-<a href="https://youtu.be/UYTEnszqbYk" target="_blank">Gameplay video</a> | 
-<a href="#" onclick="document.getElementById('modal-quickflower').style.display='block'; return false;">More details</a>
+
+<a href="https://youtu.be/UYTEnszqbYk" target="_blank">Gameplay video</a> \| <a href="#" onclick="document.getElementById('modal-quickflower').style.display='block'; return false;">More details</a>
+
 </p>
 :::
 :::::
 
----
+------------------------------------------------------------------------
+
+```{=html}
+<div id="modal-gameverse" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-gameverse').style.display='none'">&times;</span>
+    <h3>GameVerse</h3>
+    <p>For my GameVerse project (repo available</p>tags$a("here", href = "https://github.com/Henrique-Shiguemoto/GameVerse-Analysis")<p>), I acted as a data engineer and analyst for a mid-sized game studio running an online multiplayer RPG. The objective was to understand player engagement and the impact of in-game purchases on revenue using data from the past three months. To achieve this, I simulated realistic game data—including player sessions, profiles, and purchase transactions—using a custom Python script, which generated multiple datasets that mimicked real-world database tables. This allowed me to work with a comprehensive, multi-source dataset while maintaining a realistic scenario for analysis.</p>
+
+<p>I built a robust ETL pipeline in Databricks to transform raw, heterogeneous data into clean, analysis-ready datasets. The pipeline follows a traditional bronze-silver-gold architecture: the bronze layer stores raw data mostly as strings, the silver layer ensures data quality through type conversions, consistent naming, and deduplication, and the gold layer denormalizes tables and aggregates key metrics to optimize performance for downstream analytics. This structured approach ensured that the Analytics team could easily use the processed data in Tableau dashboards and Excel workbooks for exploratory data analysis and storytelling.</p>
+
+<p>The project showcases my ability to integrate multiple technologies—Databricks, Spark/PySpark, SQL, Python, Tableau, and Excel—to deliver actionable insights. The final deliverables include interactive Tableau dashboards and a comprehensive Excel workbook that highlight player behavior trends, revenue patterns, and other KPIs relevant to the business. Overall, this project demonstrates my skills in end-to-end data engineering, data cleaning, pipeline design, and translating complex datasets into clear, business-oriented analyses.</p>
+
+    <div class="modal-image-grid">
+      <img src="www/data_analysis/GameVerse1.png">
+      <img src="www/data_analysis/GameVerse2.png">
+      <img src="www/data_analysis/GameVerse3.png">
+    </div>
+
+  </div>
+</div>
+```
+
 
 ```{=html}
 <div id="modal-datasus" class="modal">
@@ -243,6 +362,29 @@ Each entry includes a short overview, key contributions, and the tech used.
   </div>
 </div>
 ```
+
+```{=html}
+<div id="modal-grcpy" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-grcpy').style.display='none'">&times;</span>
+    <h3>Gesture Recognition with Leap Motion and ML</h3>
+    
+    <p>This project used the Leap Motion sensor by Ultraleap to collect hand-tracking data from four participants with different hand sizes. Each participant was asked to perform a set of predefined gestures taken from a gesture vocabulary proposed in a previous study. The data collection was carried out using the C programming language and the LeapC SDK. Afterward, the dataset was processed and cleaned to serve as input for machine learning classifiers.</p><br>
+
+<p>The chosen algorithms were kNN, SVM, and Random Forest, as these are among the most commonly used in related research, allowing for direct comparison with results in the literature. Using Python’s scikit-learn library, I trained models with the hand dataset and evaluated their performance, testing multiple parameter configurations for each algorithm.</p>
+
+<p>The results were consistent with expectations. Random Forest showed poor performance, with little variation across parameter changes. kNN performed slightly worse than SVM, which aligned with findings from previous studies. These outcomes also allowed us to identify which gestures were harder to classify and which hand sizes were easier to recognize.</p>
+
+<div class="modal-image-grid">
+  <img src="www/data_analysis/LeapMotionCPythonGR 1.png">
+  <img src="www/data_analysis/LeapMotionCPythonGR 2.png">
+  <img src="www/data_analysis/LeapMotionCPythonGR 3.png">
+</div>
+
+  </div>
+</div>
+```
+
 
 ```{=html}
 <div id="modal-hci" class="modal">
@@ -307,6 +449,8 @@ Each entry includes a short overview, key contributions, and the tech used.
     <p>This was a year-long undergraduate research project focused on developing a gesture recognition system as an alternative to traditional input devices such as keyboards, mice, and touchpads. The goal was to explore new ways of interacting with computers through more natural, touch-free methods.</p><br>
 <p>For gesture detection, we used the Leap Motion sensor alongside Java, Selenium, and Eclipse to enable navigation within a Health Information System web application. I documented the entire development process in a research article and had the opportunity to present this work at both EAITI 2022 and CBIS 2022.</p>
 
+    <p>One important detail about this reseach is that, for Gesture Recognition, ML algorithms were not used, mainly the built-in gesture recognition features of the Leap Motion sensor. Later in other projects I participated, Machine Learning Algorithms were used in conjunction with this sensor.</p>
+
 <div class="modal-image-grid">
   <img src="www/soft_eng/Gesture Recognition 1.png">
   <img src="www/soft_eng/Gesture Recognition 2.png">
@@ -353,6 +497,7 @@ Each entry includes a short overview, key contributions, and the tech used.
 </div>
 ```
 
+```{=html}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("click", function (event) {
@@ -364,3 +509,4 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+```
