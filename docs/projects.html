@@ -158,6 +158,29 @@ Each entry includes a short overview, key contributions, and the tech used.</p>
 <h2 data-anchor-id="data-analysis">📈 Data Analysis</h2>
 <div class="grid-container projects-grid">
 <div class="grid-card project-card">
+<p><img src="www/data_analysis/ManaWorks1.png"></p>
+<h3>
+ManaWorks
+</h3>
+<p>
+Game Publisher Pitching Dashboard to understand patterns of project pitches.
+</p>
+<ul>
+<li>
+Created a Tableau dashboard for pitching overview for a game publisher.
+</li>
+<li>
+Analyzed project data such as requested revenue, expected ROI and more.
+</li>
+</ul>
+<p class="project-tech">
+</p><p><strong>Tech:</strong> Tableau and Python</p>
+<p></p>
+<p class="project-links">
+</p><p><a href="https://public.tableau.com/app/profile/henrique.felizardo/viz/ManaWorks/ManaWorksDash" target="_blank">Open dashboard</a> | <a href="#" onclick="document.getElementById('modal-manaworks').style.display='block'; return false;">More details</a></p>
+<p></p>
+</div>
+<div class="grid-card project-card">
 <p><img src="www/data_analysis/GameVerse banner.png"></p>
 <h3>
 GameVerse
@@ -422,11 +445,28 @@ Applied SIMD for rendering and QPC for timing with memory usage from syscalls.
 </div>
 </div>
 <hr>
+<div id="modal-manaworks" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-manaworks').style.display='none'">×</span>
+    <h3>ManaWorks</h3>
+    
+    <p>This is a fictitious project (repo available <a href="https://github.com/Henrique-Shiguemoto/ManaWorks">here</a>) where I took on the role of a Data Analyst, tasked with developing a Tableau dashboard for a game publisher called ManaWorks. The company regularly receives project pitches from various game studios seeking investment. To decide whether to invest, ManaWorks evaluates data such as Requested Funding, Prototype Availability, Game Genre, Target Platform, Expected ROI, and other key factors.</p>
+
+    <p>To simulate this scenario, I used Python to generate a synthetic dataset, which allowed me to perform exploratory data analysis and identify the most relevant information to highlight in the dashboard. I then used Tableau to import the data, build sheets, create calculated fields, apply filters, and design a fully stylized dashboard based on ManaWorks’ color palette.</p>
+    
+    <div class="modal-image-grid">
+      <img src="www/data_analysis/ManaWorks1.png">
+      <img src="www/data_analysis/ManaWorks2.png">
+      <img src="www/data_analysis/ManaWorks3.png">
+    </div>
+
+  </div>
+</div>
 <div id="modal-gameverse" class="modal">
   <div class="modal-content">
     <span class="close" onclick="document.getElementById('modal-gameverse').style.display='none'">×</span>
     <h3>GameVerse</h3>
-    <p>For my GameVerse project (repo available</p>tags$a("here", href = "https://github.com/Henrique-Shiguemoto/GameVerse-Analysis")<p>), I acted as a data engineer and analyst for a mid-sized game studio running an online multiplayer RPG. The objective was to understand player engagement and the impact of in-game purchases on revenue using data from the past three months. To achieve this, I simulated realistic game data—including player sessions, profiles, and purchase transactions—using a custom Python script, which generated multiple datasets that mimicked real-world database tables. This allowed me to work with a comprehensive, multi-source dataset while maintaining a realistic scenario for analysis.</p>
+    <p>For my GameVerse project (repo available <a href="https://github.com/Henrique-Shiguemoto/GameVerse-Analysis">here</a>), I acted as a data engineer and analyst for a mid-sized game studio running an online multiplayer RPG. The objective was to understand player engagement and the impact of in-game purchases on revenue using data from the past three months. To achieve this, I simulated realistic game data—including player sessions, profiles, and purchase transactions—using a custom Python script, which generated multiple datasets that mimicked real-world database tables. This allowed me to work with a comprehensive, multi-source dataset while maintaining a realistic scenario for analysis.</p>
 
 <p>I built a robust ETL pipeline in Databricks to transform raw, heterogeneous data into clean, analysis-ready datasets. The pipeline follows a traditional bronze-silver-gold architecture: the bronze layer stores raw data mostly as strings, the silver layer ensures data quality through type conversions, consistent naming, and deduplication, and the gold layer denormalizes tables and aggregates key metrics to optimize performance for downstream analytics. This structured approach ensured that the Analytics team could easily use the processed data in Tableau dashboards and Excel workbooks for exploratory data analysis and storytelling.</p>
 
