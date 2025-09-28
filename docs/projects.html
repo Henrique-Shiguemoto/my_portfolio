@@ -119,16 +119,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link active" data-scroll-target="#data-analysis">📈 Data Analysis</a></li>
-  <li><a href="#software-engineering" id="toc-software-engineering" class="nav-link" data-scroll-target="#software-engineering">💻 Software Engineering</a></li>
-  <li><a href="#game-development" id="toc-game-development" class="nav-link" data-scroll-target="#game-development">🎮 Game Development</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,10 +144,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A curated selection of work across <strong>Data Analysis</strong>, <strong>Software Engineering</strong>, and <strong>Game Development</strong>.<br>
-Each entry includes a short overview, key contributions, and the tech used.</p>
-<section id="data-analysis" class="level2">
-<h2 data-anchor-id="data-analysis">📈 Data Analysis</h2>
+<p>A curated selection of projects I worked in the past years. Each entry includes a short overview, key contributions, and the tech used.</p>
 <div class="grid-container projects-grid">
 <div class="grid-card project-card">
 <p><img src="www/data_analysis/ManaWorks1.png"></p>
@@ -296,154 +285,102 @@ Built an interactive prototype aligned to HCI best practices
 <p></p>
 </div>
 </div>
-</section>
-<section id="software-engineering" class="level2">
-<h2 data-anchor-id="software-engineering">💻 Software Engineering</h2>
-<div class="grid-container projects-grid">
-<div class="grid-card project-card">
-<p><img src="www/soft_eng/BipaNota banner.png"></p>
-<h3>
-BipaNota (Barcode Verification App)
-</h3>
-<p>
-App for retailers to speed up goods verification against fiscal notes via barcode scanning.
-</p>
-<ul>
-<li>
-Implemented camera-based scanning and product matching logic
-</li>
-<li>
-Led development and testing for internal Google Play pilots
-</li>
-</ul>
-<p class="project-tech">
-</p><p><strong>Tech:</strong> Flutter, Dart, Supabase and RevenueCat</p>
-<p></p>
-<p class="project-links">
-</p><p><em>Closed testing · work in progress</em> | <a href="#" onclick="document.getElementById('modal-bipanota').style.display='block'; return false;">More details</a></p>
-<p></p>
-</div>
-<div class="grid-card project-card">
-<p><img src="www/soft_eng/KinectPureData 2.png"></p>
-<h3>
-Body Recognition with Kinect and PD
-</h3>
-<p>
-System which makes body joints control musical notes, pitch and volume in Pure Data.
-</p>
-<ul>
-<li>
-Developed a desktop app with Kinect and C++ to recognize body joints.
-</li>
-<li>
-Through sockets, the app was connected to Pure Data to transmit body data.
-</li>
-</ul>
-<p class="project-tech">
-</p><p><strong>Tech:</strong> C++, Win32, Kinect and Pure Data</p>
-<p></p>
-<p class="project-links">
-</p><p><a href="https://youtu.be/JCE6xLo2_-w" target="_blank">Showcase video</a> | <a href="#" onclick="document.getElementById('modal-kinectpuredata').style.display='block'; return false;">More details</a></p>
-<p></p>
-</div>
-<div class="grid-card project-card">
-<p><img src="www/soft_eng/Stelf 1 cut.png"></p>
-<h3>
-Stelf (Game Store Prototype)
-</h3>
-<p>
-University team project inspired by Steam; end-to-end desktop app with catalog and persistence.
-</p>
-<ul>
-<li>
-Scrum-style development with a 4-student team over ~3 months
-</li>
-<li>
-WinForms UI and MongoDB backend integration
-</li>
-</ul>
-<p class="project-tech">
-</p><p><strong>Tech:</strong> C#, WinForms, MongoDB, Visual Studio</p>
-<p></p>
-<p class="project-links">
-</p><p><a href="https://github.com/Henrique-Shiguemoto/Stelf" target="_blank">Github Repo</a> | <a href="#" onclick="document.getElementById('modal-stelf').style.display='block'; return false;">More details</a></p>
-<p></p>
-</div>
-<div class="grid-card project-card">
-<p><img src="www/soft_eng/Gesture Recognition 1 cut.png"></p>
-<h3>
-Gesture Recognition for Health IS
-</h3>
-<p>
-Research using Leap Motion to replace touch-based input in a web Health Information System.
-</p>
-<ul>
-<li>
-Gesture mapping to web navigation with Selenium automation
-</li>
-<li>
-Presented research insights at EAITI 2022 and CBIS 2022
-</li>
-</ul>
-<p class="project-tech">
-</p><p><strong>Tech:</strong> Java, Selenium, Leap Motion</p>
-<p></p>
-<p class="project-links">
-</p><p><em>Private Repo</em> | <a href="#" onclick="document.getElementById('modal-gesture').style.display='block'; return false;">More details</a></p>
-<p></p>
-</div>
-</div>
-</section>
-<section id="game-development" class="level2">
-<h2 data-anchor-id="game-development">🎮 Game Development</h2>
-<div class="grid-container projects-grid">
-<div class="grid-card project-card">
-<p><img src="www/game_dev/QuickJelly 1 cut.png"></p>
-<h3>
-QuickJelly
-</h3>
-<p>
-2D game about controlling a jelly, collecting fruits and avoiding enemies.
-</p>
-<ul>
-<li>
-Learned 2D gameplay, physics, audio, rendering, and design.
-</li>
-<li>
-Used Animation Controllers, sorting layers, colliders, prefabs and more.
-</li>
-</ul>
-<p class="project-tech">
-</p><p><strong>Tech:</strong> Unity, C#, Visual Studio</p>
-<p></p>
-<p class="project-links">
-</p><p><a href="https://youtu.be/C0IgPMbL2cQ" target="_blank">Gameplay video</a> | <a href="#" onclick="document.getElementById('modal-quickjelly').style.display='block'; return false;">More details</a></p>
-<p></p>
-</div>
-<div class="grid-card project-card">
-<p><img src="www/game_dev/QuickFlower 1.png"></p>
-<h3>
-QuickFlower
-</h3>
-<p>
-Engine-less 2D survival game where you control a bee avoiding flowers on a timer.
-</p>
-<ul>
-<li>
-Implemented bitmap loading, audio and CPU rasterization with win32 and C.
-</li>
-<li>
-Applied SIMD for rendering and QPC for timing with memory usage from syscalls.
-</li>
-</ul>
-<p class="project-tech">
-</p><p><strong>Tech:</strong> C, Win32 API, Visual Studio</p>
-<p></p>
-<p class="project-links">
-</p><p><a href="https://youtu.be/UYTEnszqbYk" target="_blank">Gameplay video</a> | <a href="#" onclick="document.getElementById('modal-quickflower').style.display='block'; return false;">More details</a></p>
-<p></p>
-</div>
-</div>
+<!-- ## 💻 Software Engineering -->
+<!-- ::::::: {.grid-container .projects-grid} -->
+<!-- ::: {.grid-card .project-card} -->
+<!-- <img src="www/soft_eng/BipaNota banner.png"/> -->
+<!-- <h3>BipaNota (Barcode Verification App)</h3> -->
+<!-- <p>App for retailers to speed up goods verification against fiscal notes via barcode scanning.</p> -->
+<!-- <ul> -->
+<!-- <li>Implemented camera-based scanning and product matching logic</li> -->
+<!-- <li>Led development and testing for internal Google Play pilots</li> -->
+<!-- </ul> -->
+<!-- <p class="project-tech"> -->
+<!-- <strong>Tech:</strong> Flutter, Dart, Supabase and RevenueCat -->
+<!-- </p> -->
+<!-- <p class="project-links"> -->
+<!-- <em>Closed testing · work in progress</em> \| <a href="#" onclick="document.getElementById('modal-bipanota').style.display='block'; return false;">More details</a> -->
+<!-- </p> -->
+<!-- ::: -->
+<!-- ::: {.grid-card .project-card} -->
+<!-- <img src="www/soft_eng/KinectPureData 2.png"/> -->
+<!-- <h3>Body Recognition with Kinect and PD</h3> -->
+<!-- <p>System which makes body joints control musical notes, pitch and volume in Pure Data.</p> -->
+<!-- <ul> -->
+<!-- <li>Developed a desktop app with Kinect and C++ to recognize body joints.</li> -->
+<!-- <li>Through sockets, the app was connected to Pure Data to transmit body data.</li> -->
+<!-- </ul> -->
+<!-- <p class="project-tech"> -->
+<!-- <strong>Tech:</strong> C++, Win32, Kinect and Pure Data -->
+<!-- </p> -->
+<!-- <p class="project-links"> -->
+<!-- <a href="https://youtu.be/JCE6xLo2_-w" target="_blank">Showcase video</a> \| <a href="#" onclick="document.getElementById('modal-kinectpuredata').style.display='block'; return false;">More details</a> -->
+<!-- </p> -->
+<!-- ::: -->
+<!-- ::: {.grid-card .project-card} -->
+<!-- <img src="www/soft_eng/Stelf 1 cut.png"/> -->
+<!-- <h3>Stelf (Game Store Prototype)</h3> -->
+<!-- <p>University team project inspired by Steam; end-to-end desktop app with catalog and persistence.</p> -->
+<!-- <ul> -->
+<!-- <li>Scrum-style development with a 4-student team over \~3 months</li> -->
+<!-- <li>WinForms UI and MongoDB backend integration</li> -->
+<!-- </ul> -->
+<!-- <p class="project-tech"> -->
+<!-- <strong>Tech:</strong> C#, WinForms, MongoDB, Visual Studio -->
+<!-- </p> -->
+<!-- <p class="project-links"> -->
+<!-- <a href="https://github.com/Henrique-Shiguemoto/Stelf" target="_blank">Github Repo</a> \| <a href="#" onclick="document.getElementById('modal-stelf').style.display='block'; return false;">More details</a> -->
+<!-- </p> -->
+<!-- ::: -->
+<!-- ::: {.grid-card .project-card} -->
+<!-- <img src="www/soft_eng/Gesture Recognition 1 cut.png"/> -->
+<!-- <h3>Gesture Recognition for Health IS</h3> -->
+<!-- <p>Research using Leap Motion to replace touch-based input in a web Health Information System.</p> -->
+<!-- <ul> -->
+<!-- <li>Gesture mapping to web navigation with Selenium automation</li> -->
+<!-- <li>Presented research insights at EAITI 2022 and CBIS 2022</li> -->
+<!-- </ul> -->
+<!-- <p class="project-tech"> -->
+<!-- <strong>Tech:</strong> Java, Selenium, Leap Motion -->
+<!-- </p> -->
+<!-- <p class="project-links"> -->
+<!-- <em>Private Repo</em> \| <a href="#" onclick="document.getElementById('modal-gesture').style.display='block'; return false;">More details</a> -->
+<!-- </p> -->
+<!-- ::: -->
+<!-- ::::::: -->
+<!-- ## 🎮 Game Development -->
+<!-- ::::: {.grid-container .projects-grid} -->
+<!-- ::: {.grid-card .project-card} -->
+<!-- <img src="www/game_dev/QuickJelly 1 cut.png"/> -->
+<!-- <h3>QuickJelly</h3> -->
+<!-- <p>2D game about controlling a jelly, collecting fruits and avoiding enemies.</p> -->
+<!-- <ul> -->
+<!-- <li>Learned 2D gameplay, physics, audio, rendering, and design.</li> -->
+<!-- <li>Used Animation Controllers, sorting layers, colliders, prefabs and more.</li> -->
+<!-- </ul> -->
+<!-- <p class="project-tech"> -->
+<!-- <strong>Tech:</strong> Unity, C#, Visual Studio -->
+<!-- </p> -->
+<!-- <p class="project-links"> -->
+<!-- <a href="https://youtu.be/C0IgPMbL2cQ" target="_blank">Gameplay video</a> \| <a href="#" onclick="document.getElementById('modal-quickjelly').style.display='block'; return false;">More details</a> -->
+<!-- </p> -->
+<!-- ::: -->
+<!-- ::: {.grid-card .project-card} -->
+<!-- <img src="www/game_dev/QuickFlower 1.png"/> -->
+<!-- <h3>QuickFlower</h3> -->
+<!-- <p>Engine-less 2D survival game where you control a bee avoiding flowers on a timer.</p> -->
+<!-- <ul> -->
+<!-- <li>Implemented bitmap loading, audio and CPU rasterization with win32 and C.</li> -->
+<!-- <li>Applied SIMD for rendering and QPC for timing with memory usage from syscalls.</li> -->
+<!-- </ul> -->
+<!-- <p class="project-tech"> -->
+<!-- <strong>Tech:</strong> C, Win32 API, Visual Studio -->
+<!-- </p> -->
+<!-- <p class="project-links"> -->
+<!-- <a href="https://youtu.be/UYTEnszqbYk" target="_blank">Gameplay video</a> \| <a href="#" onclick="document.getElementById('modal-quickflower').style.display='block'; return false;">More details</a> -->
+<!-- </p> -->
+<!-- ::: -->
+<!-- ::::: -->
 <hr>
 <div id="modal-manaworks" class="modal">
   <div class="modal-content">
@@ -545,100 +482,97 @@ Applied SIMD for rendering and QPC for timing with memory usage from syscalls.
 
   </div>
 </div>
-<div id="modal-bipanota" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="document.getElementById('modal-bipanota').style.display='none'">×</span>
-    <h3>BipaNota</h3>
-    <p>I have over a year of experience developing Android applications with Flutter and Dart, ranging from simple static apps to dynamic, industry-oriented solutions. One of my main projects is BipaNota, a mobile application designed to automate the verification of invoices in stores and distributors. The app includes features such as account authentication, barcode scanning (via both camera and USB scanner), invoice downloads using access keys, and PDF report generation. It also leverages modern development practices like object-oriented programming, RESTful APIs, session authentication, Supabase for database management, custom widgets, and state management with Provider.</p><br>
-<p>Currently, BipaNota is in a closed testing phase on Google Play, with active users providing frequent feedback. I work as the sole developer in a team of three, alongside two collaborators focused on marketing and adoption. The application addresses a common challenge in small businesses, where employees spend significant time manually checking deliveries against invoices. By automating this process, BipaNota reduces verification time, freeing up staff to focus on customers. Looking ahead, we plan to expand the project with additional features such as monetization and iOS availability.</p>
-
-<div class="modal-image-grid">
-  <img src="www/soft_eng/BipaNota 1.png">
-  <img src="www/soft_eng/BipaNota 3.png">
-  <img src="www/soft_eng/BipaNota 4.png">
-</div>
-
-  </div>
-</div>
-<div id="modal-kinectpuredata" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="document.getElementById('modal-kinectpuredata').style.display='none'">×</span>
-    <h3>Body Recognition with Kinect and PD</h3>
-    <p>This project was a freelance job I did for a Master's degree a student was pursuing at the same university I studied at (State University of Maringá). The idea was to create a system to recognize body joints with the Kinect sensor from Microsoft, specifically the Xbox One Kinect, and to create sounds with the recognized body. Together with the C++ programming language, I had to learn Pure Data which is a visual programming language to create sounds and music through circuit-like diagrams.</p><br>
-    
-    <p>I had to learn how to create diagrams in PureData and how to connect it to my other Kinect app so that I can send body joint data to create sounds. I did this by using sockets with the win32 API. Every number of frames (can be configured), a buffer containing all the body joint data is filled and sent through a socket, then the buffer gets cleared to be filled up again afterwards. The user can choose what join data will be sent through the socket.</p>
-
-<div class="modal-image-grid">
-  <img src="www/soft_eng/KinectPureData 1.png">
-  <img src="www/soft_eng/KinectPureData 3.png">
-  <img src="www/soft_eng/KinectPureData 4.png">
-</div>
-
-  </div>
-</div>
-<div id="modal-stelf" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="document.getElementById('modal-stelf').style.display='none'">×</span>
-    <h3>Stelf (Game Store Prototype)</h3>
-    <p>This project was a university prototype of a desktop application for a game store, inspired by platforms like Steam. It was developed over the course of three months by a team of four students, following a Scrum-style development cycle with task management handled through Trello. Here’s the repository.</p><br>
-
-<p>The application was built using C#, WinForms, and Visual Studio, covering both the front-end interface and the back-end logic. For data storage, we integrated a non-relational MongoDB database to manage the catalog of games available in the store.</p>
-
-<div class="modal-image-grid">
-  <img src="www/soft_eng/Stelf 1.png">
-  <img src="www/soft_eng/Stelf 2.png">
-  <img src="www/soft_eng/Stelf 3.png">
-</div>
-
-  </div>
-</div>
-<div id="modal-gesture" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="document.getElementById('modal-gesture').style.display='none'">×</span>
-    <h3>Gesture Recognition for Health IS</h3>
-    <p>This was a year-long undergraduate research project focused on developing a gesture recognition system as an alternative to traditional input devices such as keyboards, mice, and touchpads. The goal was to explore new ways of interacting with computers through more natural, touch-free methods.</p><br>
-<p>For gesture detection, we used the Leap Motion sensor alongside Java, Selenium, and Eclipse to enable navigation within a Health Information System web application. I documented the entire development process in a research article and had the opportunity to present this work at both EAITI 2022 and CBIS 2022.</p>
-
-    <p>One important detail about this reseach is that, for Gesture Recognition, ML algorithms were not used, mainly the built-in gesture recognition features of the Leap Motion sensor. Later in other projects I participated, Machine Learning Algorithms were used in conjunction with this sensor.</p>
-
-<div class="modal-image-grid">
-  <img src="www/soft_eng/Gesture Recognition 1.png">
-  <img src="www/soft_eng/Gesture Recognition 2.png">
-  <img src="www/soft_eng/Gesture Recognition 3.png">
-</div>
-
-  </div>
-</div>
-<div id="modal-quickjelly" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="document.getElementById('modal-quickjelly').style.display='none'">×</span>
-    <h3>QuickJelly</h3>
-    <p>This was my first game project, where the player controls a cute jelly character tasked with collecting fruits scattered across the map while avoiding enemy jellies, all under the pressure of a countdown timer. You can check out a short gameplay video.</p><br>
-<p>The game was developed in about a month using C#, Unity, and Visual Studio. Throughout the process, I gained valuable experience in 2D gameplay mechanics, physics, audio integration, rendering, and game design principles, which gave me a strong foundation for future game development projects.</p>
-
-<div class="modal-image-grid">
-  <img src="www/game_dev/QuickJelly 1.png">
-  <img src="www/game_dev/QuickJelly 2.png">
-  <img src="www/game_dev/QuickJelly 3.png">
-</div>
-
-  </div>
-</div>
-<div id="modal-quickflower" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="document.getElementById('modal-quickflower').style.display='none'">×</span>
-    <h3>QuickFlower</h3>
-    <p>This is a 2D game where the player controls a flower trying to escape bees that attempt to pollinate it. The goal is to survive each level for 15 seconds, with increasing difficulty as more bees appear over time. You can watch a short gameplay video.</p><br>
-<p>The game was developed using C, the Win32 API, and Visual Studio, without any game engine. Building it from scratch provided hands-on experience in bitmap loading and rendering, audio handling, CPU-side rasterization, SIMD optimizations, and other low-level programming techniques, offering deep insight into the mechanics behind 2D games.</p>
-
-<div class="modal-image-grid">
-  <img src="www/game_dev/QuickFlower 1.png">
-  <img src="www/game_dev/QuickFlower 2.png">
-  <img src="www/game_dev/QuickFlower 3.png">
-</div>
-
-  </div>
-</div>
+<!-- ```{=html} -->
+<!-- <div id="modal-bipanota" class="modal"> -->
+<!--   <div class="modal-content"> -->
+<!--     <span class="close" onclick="document.getElementById('modal-bipanota').style.display='none'">&times;</span> -->
+<!--     <h3>BipaNota</h3> -->
+<!--     <p>I have over a year of experience developing Android applications with Flutter and Dart, ranging from simple static apps to dynamic, industry-oriented solutions. One of my main projects is BipaNota, a mobile application designed to automate the verification of invoices in stores and distributors. The app includes features such as account authentication, barcode scanning (via both camera and USB scanner), invoice downloads using access keys, and PDF report generation. It also leverages modern development practices like object-oriented programming, RESTful APIs, session authentication, Supabase for database management, custom widgets, and state management with Provider.</p><br> -->
+<!-- <p>Currently, BipaNota is in a closed testing phase on Google Play, with active users providing frequent feedback. I work as the sole developer in a team of three, alongside two collaborators focused on marketing and adoption. The application addresses a common challenge in small businesses, where employees spend significant time manually checking deliveries against invoices. By automating this process, BipaNota reduces verification time, freeing up staff to focus on customers. Looking ahead, we plan to expand the project with additional features such as monetization and iOS availability.</p> -->
+<!-- <div class="modal-image-grid"> -->
+<!--   <img src="www/soft_eng/BipaNota 1.png"> -->
+<!--   <img src="www/soft_eng/BipaNota 3.png"> -->
+<!--   <img src="www/soft_eng/BipaNota 4.png"> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+<!-- ```{=html} -->
+<!-- <div id="modal-kinectpuredata" class="modal"> -->
+<!--   <div class="modal-content"> -->
+<!--     <span class="close" onclick="document.getElementById('modal-kinectpuredata').style.display='none'">&times;</span> -->
+<!--     <h3>Body Recognition with Kinect and PD</h3> -->
+<!--     <p>This project was a freelance job I did for a Master's degree a student was pursuing at the same university I studied at (State University of Maringá). The idea was to create a system to recognize body joints with the Kinect sensor from Microsoft, specifically the Xbox One Kinect, and to create sounds with the recognized body. Together with the C++ programming language, I had to learn Pure Data which is a visual programming language to create sounds and music through circuit-like diagrams.</p><br> -->
+<!--     <p>I had to learn how to create diagrams in PureData and how to connect it to my other Kinect app so that I can send body joint data to create sounds. I did this by using sockets with the win32 API. Every number of frames (can be configured), a buffer containing all the body joint data is filled and sent through a socket, then the buffer gets cleared to be filled up again afterwards. The user can choose what join data will be sent through the socket.</p> -->
+<!-- <div class="modal-image-grid"> -->
+<!--   <img src="www/soft_eng/KinectPureData 1.png"> -->
+<!--   <img src="www/soft_eng/KinectPureData 3.png"> -->
+<!--   <img src="www/soft_eng/KinectPureData 4.png"> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+<!-- ```{=html} -->
+<!-- <div id="modal-stelf" class="modal"> -->
+<!--   <div class="modal-content"> -->
+<!--     <span class="close" onclick="document.getElementById('modal-stelf').style.display='none'">&times;</span> -->
+<!--     <h3>Stelf (Game Store Prototype)</h3> -->
+<!--     <p>This project was a university prototype of a desktop application for a game store, inspired by platforms like Steam. It was developed over the course of three months by a team of four students, following a Scrum-style development cycle with task management handled through Trello. Here’s the repository.</p><br> -->
+<!-- <p>The application was built using C#, WinForms, and Visual Studio, covering both the front-end interface and the back-end logic. For data storage, we integrated a non-relational MongoDB database to manage the catalog of games available in the store.</p> -->
+<!-- <div class="modal-image-grid"> -->
+<!--   <img src="www/soft_eng/Stelf 1.png"> -->
+<!--   <img src="www/soft_eng/Stelf 2.png"> -->
+<!--   <img src="www/soft_eng/Stelf 3.png"> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+<!-- ```{=html} -->
+<!-- <div id="modal-gesture" class="modal"> -->
+<!--   <div class="modal-content"> -->
+<!--     <span class="close" onclick="document.getElementById('modal-gesture').style.display='none'">&times;</span> -->
+<!--     <h3>Gesture Recognition for Health IS</h3> -->
+<!--     <p>This was a year-long undergraduate research project focused on developing a gesture recognition system as an alternative to traditional input devices such as keyboards, mice, and touchpads. The goal was to explore new ways of interacting with computers through more natural, touch-free methods.</p><br> -->
+<!-- <p>For gesture detection, we used the Leap Motion sensor alongside Java, Selenium, and Eclipse to enable navigation within a Health Information System web application. I documented the entire development process in a research article and had the opportunity to present this work at both EAITI 2022 and CBIS 2022.</p> -->
+<!--     <p>One important detail about this reseach is that, for Gesture Recognition, ML algorithms were not used, mainly the built-in gesture recognition features of the Leap Motion sensor. Later in other projects I participated, Machine Learning Algorithms were used in conjunction with this sensor.</p> -->
+<!-- <div class="modal-image-grid"> -->
+<!--   <img src="www/soft_eng/Gesture Recognition 1.png"> -->
+<!--   <img src="www/soft_eng/Gesture Recognition 2.png"> -->
+<!--   <img src="www/soft_eng/Gesture Recognition 3.png"> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+<!-- ```{=html} -->
+<!-- <div id="modal-quickjelly" class="modal"> -->
+<!--   <div class="modal-content"> -->
+<!--     <span class="close" onclick="document.getElementById('modal-quickjelly').style.display='none'">&times;</span> -->
+<!--     <h3>QuickJelly</h3> -->
+<!--     <p>This was my first game project, where the player controls a cute jelly character tasked with collecting fruits scattered across the map while avoiding enemy jellies, all under the pressure of a countdown timer. You can check out a short gameplay video.</p><br> -->
+<!-- <p>The game was developed in about a month using C#, Unity, and Visual Studio. Throughout the process, I gained valuable experience in 2D gameplay mechanics, physics, audio integration, rendering, and game design principles, which gave me a strong foundation for future game development projects.</p> -->
+<!-- <div class="modal-image-grid"> -->
+<!--   <img src="www/game_dev/QuickJelly 1.png"> -->
+<!--   <img src="www/game_dev/QuickJelly 2.png"> -->
+<!--   <img src="www/game_dev/QuickJelly 3.png"> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+<!-- ```{=html} -->
+<!-- <div id="modal-quickflower" class="modal"> -->
+<!--   <div class="modal-content"> -->
+<!--     <span class="close" onclick="document.getElementById('modal-quickflower').style.display='none'">&times;</span> -->
+<!--     <h3>QuickFlower</h3> -->
+<!--     <p>This is a 2D game where the player controls a flower trying to escape bees that attempt to pollinate it. The goal is to survive each level for 15 seconds, with increasing difficulty as more bees appear over time. You can watch a short gameplay video.</p><br> -->
+<!-- <p>The game was developed using C, the Win32 API, and Visual Studio, without any game engine. Building it from scratch provided hands-on experience in bitmap loading and rendering, audio handling, CPU-side rasterization, SIMD optimizations, and other low-level programming techniques, offering deep insight into the mechanics behind 2D games.</p> -->
+<!-- <div class="modal-image-grid"> -->
+<!--   <img src="www/game_dev/QuickFlower 1.png"> -->
+<!--   <img src="www/game_dev/QuickFlower 2.png"> -->
+<!--   <img src="www/game_dev/QuickFlower 3.png"> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("click", function (event) {
@@ -652,7 +586,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-</section>
 
 </main> <!-- /main -->
 <!-- www/lightbox-scripts.html -->

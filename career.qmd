@@ -8,40 +8,24 @@ css: www/custom.css
 
 #### ● Aug 2025 - Current
 
-I am building my freelance career as a Data Analyst, focusing on delivering
-data-driven insights and interactive solutions for clients. My work primarily
-involves using R, Shiny, and Tableau to develop dashboards, reports, and
-analytical tools that transform raw data into actionable information.
+I am building my freelance career as a Data Analyst, focusing on delivering data-driven insights and interactive solutions for clients. My work primarily involves using R and Shiny to develop dashboards, reports, and analytical tools that transform raw data into actionable information.
 
-Through these projects, I aim to help businesses and individuals improve
-decision-making, streamline processes, and better understand their data.
+Through these projects, I aim to help businesses and individuals improve decision-making, streamline processes, and better understand their data.
 
----
+------------------------------------------------------------------------
 
-# Oper - Data Analyst
+# Oper - Data Analyst/Engineer
 
-#### ● Mar 2024 - Aug 2025 (1 year and 5 months)
+#### ● Mar 2024 - Aug 2025 (1 year and 6 months)
 
-As a Data Analyst, I collaborated with multidisciplinary teams to analyze large
-datasets and deliver insights that improved decision-making for clients. I designed
-and optimized data pipelines to enhance accessibility and processing efficiency,
-and I created and maintained dozens of interactive dashboards and reports for major
-national and international clients.
+I worked as a Data Analyst and Data Engineer in multidisciplinary teams, analyzing large volumes of data to support data-driven decision-making. I designed and optimized pipelines to improve accessibility and processing efficiency, including enhancing an ETL pipeline in Databricks with SQL and PySpark that achieved a 1500% performance gain. 
 
-These solutions contributed to more than R$2,500,000 in additional gross profit and
-supported long-term business growth. Throughout these projects, I worked with a wide
-range of technologies, including R, Python, SQL, Azure Databricks, PySpark, Excel,
-and Shiny, to build analyses, reports, dashboards, and ETL pipelines.
+I developed and maintained dozens of interactive dashboards and reports for national and international clients, contributing to over R$2.5 million in gross profit and supporting sustainable business growth. I used technologies such as R, Python, SQL, Azure Databricks, PySpark, Excel, and Shiny to create analyses, reports, dashboards, and ETL pipelines.
 
----
+------------------------------------------------------------------------
 
 # Kreativstorm - Data Analyst Trainee
 
 #### ● Aug 2023 - Sep 2023 (2 months)
 
-I collaborated with a diverse team of data analysts and students from around the world
-on complex case studies analyzing household behavior in the UK. During this experience,
-I enhanced my proficiency in R and Python by applying theoretical knowledge to practical
-scenarios, while also improving my spoken and written English through teamwork and
-presentations, which strengthened my ability to communicate effectively in an international
-setting.
+I collaborated with a diverse team of data analysts and students from around the world on complex case studies analyzing household behavior in the UK. During this experience, I enhanced my proficiency in R and Python by applying theoretical knowledge to practical scenarios, while also improving my spoken and written English through teamwork and presentations, which strengthened my ability to communicate effectively in an international setting.

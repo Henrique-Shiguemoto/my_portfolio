@@ -1,16 +1,15 @@
 ---
-title: "Hi! I'm Rick!"
+title: "Henrique Shiguemoto"
+subtitle: "Data Analyst/Engineer"
 format: html
 css: www/custom.css
 ---
 
 ::::: intro-container
 ::: intro-text
-Hi! My full name is **Henrique Shiguemoto Felizardo**. I have a bachelor's degree in Computer Science from State University of Maringá, with more than 2 years of professional experience in Data Analysis. I’m also passionate about Human-Computer Interaction, Design, Software Engineering, and Game Development.
+Data Professional with over 2 years of professional experience performing activities such as dashboard creation, ad hoc analyses, ETL/ELT pipeline development, and report writing with storytelling techniques. Worked with large national and international companies, collaborating with multidisciplinary teams from several countries such as China, Germany, and Lebanon.
 
 You can download my [CV (English)](www/Data%20Analyst.pdf) or [CV (Portuguese)](www/Analista%20de%20Dados.pdf).
-
-I am dedicated to applying data, technology, and design to create impactful solutions that drive meaningful results. With a versatile skill set spanning analysis, development, and visualization, I aim to deliver insights and solutions that make a tangible difference.
 :::
 
 ::: intro-photo
@@ -20,91 +19,107 @@ I am dedicated to applying data, technology, and design to create impactful solu
 
 ## Main Skills and Technologies
 
-:::::: skills-grid
-::: skill-column
-<h3>Data Analysis</h3>
-
+::::: skills-grid
+:::: skill-column
+::: skills-lists
 <ul>
 
-<li>Storytelling</li>
-
-<li>Dashboard Development</li>
+<li>Python</li>
 
 <li>R</li>
-
-<li>Python</li>
 
 <li>SQL</li>
 
 <li>Shiny</li>
 
+</ul>
+
+<ul>
+
 <li>Tableau</li>
 
-<li>Azure Databricks</li>
+<li>Power BI</li>
+
+<li>Databricks</li>
 
 <li>Excel</li>
 
+</ul>
+
+<ul>
+
 <li>PySpark</li>
 
-</ul>
-:::
+<li>dbt</li>
 
-::: skill-column
-<h3>Game Development</h3>
+<li>Linux</li>
 
-<ul>
-
-<li>Low Level Programming</li>
-
-<li>Game Design</li>
-
-<li>C</li>
-
-<li>C++</li>
-
-<li>C#</li>
-
-<li>Java</li>
-
-<li>SDL3</li>
-
-<li>OpenGL</li>
-
-<li>Unity</li>
-
-<li>Microsoft Visual Studio</li>
+<li>Git/Github</li>
 
 </ul>
 :::
+::::
 
-::: skill-column
-<h3>Software Engineering</h3>
+<!-- ::: skill-column -->
 
-<ul>
+<!-- <h3>Game Development</h3> -->
 
-<li>Mobile and Desktop</li>
+<!-- <ul> -->
 
-<li>HCI Design</li>
+<!-- <li>Low Level Programming</li> -->
 
-<li>Flutter</li>
+<!-- <li>Game Design</li> -->
 
-<li>Dart</li>
+<!-- <li>C</li> -->
 
-<li>Java</li>
+<!-- <li>C++</li> -->
 
-<li>C#</li>
+<!-- <li>C#</li> -->
 
-<li>WinForms</li>
+<!-- <li>Java</li> -->
 
-<li>Testing</li>
+<!-- <li>SDL3</li> -->
 
-<li>Debugging</li>
+<!-- <li>OpenGL</li> -->
 
-<li>Refactoring</li>
+<!-- <li>Unity</li> -->
 
-</ul>
-:::
-::::::
+<!-- <li>Microsoft Visual Studio</li> -->
+
+<!-- </ul> -->
+
+<!-- ::: -->
+
+<!-- ::: skill-column -->
+
+<!-- <h3>Software Engineering</h3> -->
+
+<!-- <ul> -->
+
+<!-- <li>Mobile and Desktop</li> -->
+
+<!-- <li>HCI Design</li> -->
+
+<!-- <li>Flutter</li> -->
+
+<!-- <li>Dart</li> -->
+
+<!-- <li>Java</li> -->
+
+<!-- <li>C#</li> -->
+
+<!-- <li>WinForms</li> -->
+
+<!-- <li>Testing</li> -->
+
+<!-- <li>Debugging</li> -->
+
+<!-- <li>Refactoring</li> -->
+
+<!-- </ul> -->
+
+<!-- ::: -->
+:::::
 
 ## Get in Touch
 

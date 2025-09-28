@@ -6,11 +6,9 @@ markdown:
   html: true
 ---
 
-# My Certifications and Achievements!
-
 A curated selection of **certifications** and **achievements**. Click **More Details** to learn more about each one.
 
-:::::::::::: {.grid-container .projects-grid}
+::::::::::::: {.grid-container .projects-grid}
 ::: {.grid-card .project-card}
 <img src="www/certificates/Become a Business Intelligence Specialist.png"/>
 
@@ -150,7 +148,7 @@ A curated selection of **certifications** and **achievements**. Click **More Det
 
 </p>
 :::
-::::::::::::
+:::::::::::::
 
 <!-- Modals -->
 
