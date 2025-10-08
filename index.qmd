@@ -28,33 +28,29 @@ You can download my [CV (English)](www/Data%20Analyst.pdf) or [CV (Portuguese)](
 
 <li>R</li>
 
-<li>SQL</li>
-
-<li>Shiny</li>
-
 </ul>
 
 <ul>
+
+<li>SQL</li>
 
 <li>Tableau</li>
 
-<li>Power BI</li>
+</ul>
 
-<li>Databricks</li>
+<ul>
 
-<li>Excel</li>
+<li>Azure (Databricks)</li>
+
+<li>PySpark</li>
 
 </ul>
 
 <ul>
 
-<li>PySpark</li>
+<li>Excel</li>
 
-<li>dbt</li>
-
-<li>Linux</li>
-
-<li>Git/Github</li>
+<li>Shiny</li>
 
 </ul>
 :::
