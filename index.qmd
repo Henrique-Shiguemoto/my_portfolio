@@ -7,7 +7,7 @@ css: www/custom.css
 
 ::::: intro-container
 ::: intro-text
-Data Professional with over 2 years of professional experience performing activities such as dashboard creation, ad hoc analyses, ETL/ELT pipeline development, and report writing with storytelling techniques. Worked with large national and international companies, collaborating with multidisciplinary teams from several countries such as China, Germany, and Lebanon.
+Data Professional with over 2 years of professional experience performing activities such as dashboard creation, ad hoc analyses, ETL/ELT pipeline development, and report writing with storytelling techniques. Worked with large national and international companies, collaborating with multidisciplinary teams from several countries such as China, Germany, and Lebanon. I also have tremendous interest in mobile app development and I'm currently participating in a software engineering project to help businesses verify goods and services automatically with BipaNota!
 
 You can download my [CV (English)](www/Data%20Analyst.pdf) or [CV (Portuguese)](www/Analista%20de%20Dados.pdf).
 :::
@@ -28,11 +28,15 @@ You can download my [CV (English)](www/Data%20Analyst.pdf) or [CV (Portuguese)](
 
 <li>R</li>
 
+<li>Flutter</li>
+
 </ul>
 
 <ul>
 
 <li>SQL</li>
+
+<li>Supabase/PostgreSQL</li>
 
 <li>Tableau</li>
 
@@ -40,9 +44,11 @@ You can download my [CV (English)](www/Data%20Analyst.pdf) or [CV (Portuguese)](
 
 <ul>
 
-<li>Azure (Databricks)</li>
+<li>Azure</li>
 
 <li>PySpark</li>
+
+<li>REST API</li>
 
 </ul>
 
