@@ -8,10 +8,10 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Career" # Maybe add some images for the companies
+      - text: "Career"
         href: career.qmd
       - text: "Projects"
-        href: projects.qmd
+        href: projects_corrected.qmd
       - text: "Achievements"
         href: achievements.qmd
       - text: "Contact"

@@ -8,7 +8,21 @@ markdown:
 
 A curated selection of **certifications** and **achievements**. Click **More Details** to learn more about each one.
 
-::::::::::::: {.grid-container .projects-grid}
+:::::::::::::: {.grid-container .projects-grid}
+::: {.grid-card .project-card}
+<img src="www/certificates/Data Analyst in Python.png"/>
+
+<h3>Data Analyst in Python</h3>
+
+<p>Completed a 36 hour course on data analysis with Python</p>
+
+<p class="achievement-links">
+
+<a href="#" onclick="document.getElementById('modal-python').style.display='block'; return false;">More details</a>
+
+</p>
+:::
+
 ::: {.grid-card .project-card}
 <img src="www/certificates/Become a Business Intelligence Specialist.png"/>
 
@@ -148,9 +162,23 @@ A curated selection of **certifications** and **achievements**. Click **More Det
 
 </p>
 :::
-:::::::::::::
+::::::::::::::
 
 <!-- Modals -->
+
+```{=html}
+<div id="modal-python" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('modal-python').style.display='none'">&times;</span>
+    <h3>Data Analyst in Python</h3>
+    
+    <p>Completed a 36 hour course on data analysis with Python, learned fundamentals of Python, data manipulation with pandas, merging dataframes in pandas, statistics, data visualization with seaborn, EDA in pandas, sampling and hypothesis testing and A/B testing in Python.</p>
+    
+    <p>Also completed projects such as performing EDA on Netflix data, NYC public school test results, history of the nobel prize winners, crime in Los Angeles and Hipothesis Testing with Men's and Women's soccer matches.</p>
+    
+  </div>
+</div>
+```
 
 ```{=html}
 <div id="modal-bi" class="modal">

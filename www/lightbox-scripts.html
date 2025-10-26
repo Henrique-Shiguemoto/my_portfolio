@@ -1,41 +1,45 @@
-<!-- www/lightbox-scripts.html -->
 <!-- Lightbox2 CSS & JS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-    
-<!-- Optional Lightbox customization -->
+
 <script>
-// Example: fade duration, resize duration, wrapAround for navigation between images
-lightbox.option({
-    'resizeDuration': 200,
-    'fadeDuration': 200,
-    'imageFadeDuration': 200,
-    'wrapAround': true,
-    'alwaysShowNavOnTouchDevices': true
+document.addEventListener("DOMContentLoaded", function() {
+  // Create and load Lightbox script dynamically
+  const script = document.createElement("script");
+  script.src = "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js";
+  script.onload = function() {
+    // ✅ Run config only after Lightbox is fully loaded
+    lightbox.option({
+      resizeDuration: 200,
+      fadeDuration: 200,
+      imageFadeDuration: 200,
+      wrapAround: true,
+      alwaysShowNavOnTouchDevices: true
+    });
+    console.log("✅ Lightbox loaded successfully");
+  };
+  document.body.appendChild(script);
 });
 </script>
-    
-    <style>
-    /* Thumbnail images in project galleries */
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 10px;
-    }
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
 
 .gallery a img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    transition: transform 0.2s;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s;
 }
 
 .gallery a img:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 </style>
-    
