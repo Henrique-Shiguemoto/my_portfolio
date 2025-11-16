@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="./projects_corrected.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -124,8 +124,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#self-employed---freelance-data-analyst" id="toc-self-employed---freelance-data-analyst" class="nav-link active" data-scroll-target="#self-employed---freelance-data-analyst">Self-Employed - Freelance Data Analyst</a></li>
-  <li><a href="#oper---data-analystengineer" id="toc-oper---data-analystengineer" class="nav-link" data-scroll-target="#oper---data-analystengineer">Oper - Data Analyst/Engineer</a></li>
+  <li><a href="#oper---data-analystengineer" id="toc-oper---data-analystengineer" class="nav-link active" data-scroll-target="#oper---data-analystengineer">Oper - Data Analyst/Engineer</a></li>
   <li><a href="#kreativstorm---data-analyst-trainee" id="toc-kreativstorm---data-analyst-trainee" class="nav-link" data-scroll-target="#kreativstorm---data-analyst-trainee">Kreativstorm - Data Analyst Trainee</a></li>
   </ul>
 </nav>
@@ -152,15 +151,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="self-employed---freelance-data-analyst" class="level1">
-<h1>Self-Employed - Freelance Data Analyst</h1>
-<section id="aug-2025---current" class="level4">
-<h4 data-anchor-id="aug-2025---current">● Aug 2025 - Current</h4>
-<p>I am building my freelance career as a Data Analyst, focusing on delivering data-driven insights and interactive solutions for clients. My work primarily involves using R and Shiny to develop dashboards, reports, and analytical tools that transform raw data into actionable information.</p>
-<p>Through these projects, I aim to help businesses and individuals improve decision-making, streamline processes, and better understand their data.</p>
-<hr>
-</section>
-</section>
 <section id="oper---data-analystengineer" class="level1">
 <h1>Oper - Data Analyst/Engineer</h1>
 <section id="mar-2024---aug-2025-1-year-and-6-months" class="level4">
@@ -181,71 +171,81 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<!-- www/lightbox-scripts.html -->
-
 <!-- Lightbox2 CSS & JS -->
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
-    
-
-<!-- Optional Lightbox customization -->
 
 <script>
 
-// Example: fade duration, resize duration, wrapAround for navigation between images
+document.addEventListener("DOMContentLoaded", function() {
 
-lightbox.option({
+  // Create and load Lightbox script dynamically
 
-    'resizeDuration': 200,
+  const script = document.createElement("script");
 
-    'fadeDuration': 200,
+  script.src = "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js";
 
-    'imageFadeDuration': 200,
+  script.onload = function() {
 
-    'wrapAround': true,
+    // ✅ Run config only after Lightbox is fully loaded
 
-    'alwaysShowNavOnTouchDevices': true
+    lightbox.option({
+
+      resizeDuration: 200,
+
+      fadeDuration: 200,
+
+      imageFadeDuration: 200,
+
+      wrapAround: true,
+
+      alwaysShowNavOnTouchDevices: true
+
+    });
+
+    console.log("✅ Lightbox loaded successfully");
+
+  };
+
+  document.body.appendChild(script);
 
 });
 
 </script>
 
-    
 
-    <style>
 
-    /* Thumbnail images in project galleries */
+<style>
 
-    .gallery {
+.gallery {
 
-        display: flex;
+  display: flex;
 
-        flex-wrap: wrap;
+  flex-wrap: wrap;
 
-        gap: 10px;
+  gap: 10px;
 
-        margin-top: 10px;
+  margin-top: 10px;
 
-    }
+}
 
 
 
 .gallery a img {
 
-    width: 150px;
+  width: 150px;
 
-    height: 100px;
+  height: 100px;
 
-    object-fit: cover;
+  object-fit: cover;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 
-    transition: transform 0.2s;
+  transition: transform 0.2s;
 
 }
 
@@ -253,15 +253,14 @@ lightbox.option({
 
 .gallery a img:hover {
 
-    transform: scale(1.05);
+  transform: scale(1.05);
 
-    cursor: pointer;
+  cursor: pointer;
 
 }
 
 </style>
 
-    
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
