@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="./projects_corrected.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -264,71 +264,81 @@ Shiny
 </section>
 
 </main> <!-- /main -->
-<!-- www/lightbox-scripts.html -->
-
 <!-- Lightbox2 CSS & JS -->
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
-    
-
-<!-- Optional Lightbox customization -->
 
 <script>
 
-// Example: fade duration, resize duration, wrapAround for navigation between images
+document.addEventListener("DOMContentLoaded", function() {
 
-lightbox.option({
+  // Create and load Lightbox script dynamically
 
-    'resizeDuration': 200,
+  const script = document.createElement("script");
 
-    'fadeDuration': 200,
+  script.src = "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js";
 
-    'imageFadeDuration': 200,
+  script.onload = function() {
 
-    'wrapAround': true,
+    // ✅ Run config only after Lightbox is fully loaded
 
-    'alwaysShowNavOnTouchDevices': true
+    lightbox.option({
+
+      resizeDuration: 200,
+
+      fadeDuration: 200,
+
+      imageFadeDuration: 200,
+
+      wrapAround: true,
+
+      alwaysShowNavOnTouchDevices: true
+
+    });
+
+    console.log("✅ Lightbox loaded successfully");
+
+  };
+
+  document.body.appendChild(script);
 
 });
 
 </script>
 
-    
 
-    <style>
 
-    /* Thumbnail images in project galleries */
+<style>
 
-    .gallery {
+.gallery {
 
-        display: flex;
+  display: flex;
 
-        flex-wrap: wrap;
+  flex-wrap: wrap;
 
-        gap: 10px;
+  gap: 10px;
 
-        margin-top: 10px;
+  margin-top: 10px;
 
-    }
+}
 
 
 
 .gallery a img {
 
-    width: 150px;
+  width: 150px;
 
-    height: 100px;
+  height: 100px;
 
-    object-fit: cover;
+  object-fit: cover;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 
-    transition: transform 0.2s;
+  transition: transform 0.2s;
 
 }
 
@@ -336,15 +346,14 @@ lightbox.option({
 
 .gallery a img:hover {
 
-    transform: scale(1.05);
+  transform: scale(1.05);
 
-    cursor: pointer;
+  cursor: pointer;
 
 }
 
 </style>
 
-    
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

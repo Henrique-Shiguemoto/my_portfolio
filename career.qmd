@@ -4,6 +4,16 @@ format: html
 css: www/custom.css
 ---
 
+# Grupo Amigão - Pricing Data Analyst
+
+#### ● Dec 2025 - Present
+
+I currently work as a Pricing Data Analyst at Grupo Amigão, where I develop and enhance analytical pricing models focused on price elasticity, profitability, and competitiveness in the retail and wholesale sector. My role involves conducting market and competitor price analyses, monitoring key performance indicators (KPIs), and identifying patterns in large datasets to generate actionable business insights. I actively support pricing architecture and assortment strategies, balancing competitiveness with customer value perception. 
+
+Additionally, I perform pricing simulations and scenario analyses including regular pricing, promotions, and markdowns—while collaborating closely with teams such as Commercial, Marketing, Supply Chain, and Market Intelligence. I also contribute to the technological evolution of the pricing area through the use of BI tools, dashboards, automation, and data-driven decision-making.
+
+------------------------------------------------------------------------
+
 # Oper - Data Analyst/Engineer
 
 #### ● Mar 2024 - Aug 2025 (1 year and 6 months)
